@@ -1,0 +1,6 @@
+[0.106s] Invoking command in '/home/taylor/scrb-practice/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taylor/scrb-practice/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/taylor/scrb-practice/build/my_cpp_pkg -- -j1 -l1
+[0.749s] [ 50%] Building CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o
+[89.352s] gmake[2]: *** [CMakeFiles/cpp_node.dir/build.make:76: CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o] Interrupt
+[89.354s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_node.dir/all] Interrupt
+[89.354s] gmake: *** [Makefile:146: all] Interrupt
+[89.420s] Invoked command in '/home/taylor/scrb-practice/build/my_cpp_pkg' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taylor/scrb-practice/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/taylor/scrb-practice/build/my_cpp_pkg -- -j1 -l1

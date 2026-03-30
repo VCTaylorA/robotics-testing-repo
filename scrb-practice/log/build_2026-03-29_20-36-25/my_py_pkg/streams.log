@@ -1,0 +1,33 @@
+[2.608s] Invoking command in '/home/taylor/scrb-practice/src/my_py_pkg': PYTHONPATH=/home/taylor/scrb-practice/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/taylor/scrb-practice/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/taylor/scrb-practice/build/my_py_pkg/build install --record /home/taylor/scrb-practice/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[3.658s] running egg_info
+[3.661s] creating ../../build/my_py_pkg/my_py_pkg.egg-info
+[3.663s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[3.665s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[3.667s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[3.668s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[3.669s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[3.672s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[3.681s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[3.685s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[3.686s] running build
+[3.686s] running build_py
+[3.691s] creating /home/taylor/scrb-practice/build/my_py_pkg/build
+[3.691s] creating /home/taylor/scrb-practice/build/my_py_pkg/build/lib
+[3.691s] creating /home/taylor/scrb-practice/build/my_py_pkg/build/lib/my_py_pkg
+[3.691s] copying my_py_pkg/__init__.py -> /home/taylor/scrb-practice/build/my_py_pkg/build/lib/my_py_pkg
+[3.692s] running install
+[3.698s] running install_lib
+[3.698s] creating /home/taylor/scrb-practice/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.699s] copying /home/taylor/scrb-practice/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/taylor/scrb-practice/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.701s] byte-compiling /home/taylor/scrb-practice/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc
+[3.702s] running install_data
+[3.703s] creating /home/taylor/scrb-practice/install/my_py_pkg/share/ament_index
+[3.704s] creating /home/taylor/scrb-practice/install/my_py_pkg/share/ament_index/resource_index
+[3.705s] creating /home/taylor/scrb-practice/install/my_py_pkg/share/ament_index/resource_index/packages
+[3.705s] copying resource/my_py_pkg -> /home/taylor/scrb-practice/install/my_py_pkg/share/ament_index/resource_index/packages
+[3.707s] copying package.xml -> /home/taylor/scrb-practice/install/my_py_pkg/share/my_py_pkg
+[3.707s] running install_egg_info
+[3.719s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/taylor/scrb-practice/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[3.730s] running install_scripts
+[3.822s] writing list of installed files to '/home/taylor/scrb-practice/build/my_py_pkg/install.log'
+[3.915s] Invoked command in '/home/taylor/scrb-practice/src/my_py_pkg' returned '0': PYTHONPATH=/home/taylor/scrb-practice/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/taylor/scrb-practice/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/taylor/scrb-practice/build/my_py_pkg/build install --record /home/taylor/scrb-practice/build/my_py_pkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,62 @@
+[0.000000] (-) TimerEvent: {}
+[0.003631] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.003725] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.005394] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.043517] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.045171] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.047434] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/taylor/scrb-practice/build/my_cpp_pkg', '--', '-j1', '-l1'], 'cwd': '/home/taylor/scrb-practice/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'taylor'), ('SSH_CLIENT', '10.0.2.2 54674 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/taylor'), ('OLDPWD', '/home/taylor'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/taylor/scrb-practice/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'taylor'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'alacritty'), ('XDG_SESSION_ID', '8'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', ''), ('AMENT_PREFIX_PATH', '/home/taylor/scrb-practice/install/my_py_pkg:/home/taylor/scrb-practice/install/my_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('PWD', '/home/taylor/scrb-practice/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.2.2 54674 10.0.2.15 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/taylor/scrb-practice/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/taylor/scrb-practice/install/my_cpp_pkg:/home/taylor/scrb-practice/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.102378] (-) TimerEvent: {}
+[0.204584] (-) TimerEvent: {}
+[0.245383] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_node\x1b[0m\n'}
+[0.305431] (-) TimerEvent: {}
+[0.320153] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o\x1b[0m\n'}
+[0.408453] (-) TimerEvent: {}
+[0.510445] (-) TimerEvent: {}
+[0.614450] (-) TimerEvent: {}
+[0.715260] (-) TimerEvent: {}
+[0.819436] (-) TimerEvent: {}
+[0.921680] (-) TimerEvent: {}
+[1.023932] (-) TimerEvent: {}
+[1.125664] (-) TimerEvent: {}
+[1.230425] (-) TimerEvent: {}
+[1.332450] (-) TimerEvent: {}
+[1.435434] (-) TimerEvent: {}
+[1.537628] (-) TimerEvent: {}
+[1.640509] (-) TimerEvent: {}
+[1.743465] (-) TimerEvent: {}
+[1.844818] (-) TimerEvent: {}
+[1.948071] (-) TimerEvent: {}
+[2.048640] (-) TimerEvent: {}
+[2.152647] (-) TimerEvent: {}
+[2.254459] (-) TimerEvent: {}
+[2.357428] (-) TimerEvent: {}
+[2.459683] (-) TimerEvent: {}
+[2.561483] (-) TimerEvent: {}
+[2.665419] (-) TimerEvent: {}
+[2.765922] (-) TimerEvent: {}
+[2.867743] (-) TimerEvent: {}
+[2.970433] (-) TimerEvent: {}
+[3.072469] (-) TimerEvent: {}
+[3.175438] (-) TimerEvent: {}
+[3.277670] (-) TimerEvent: {}
+[3.381434] (-) TimerEvent: {}
+[3.484729] (-) TimerEvent: {}
+[3.589464] (-) TimerEvent: {}
+[3.692588] (-) TimerEvent: {}
+[3.793667] (-) TimerEvent: {}
+[3.895430] (-) TimerEvent: {}
+[3.999425] (-) TimerEvent: {}
+[4.101422] (-) TimerEvent: {}
+[4.205034] (-) TimerEvent: {}
+[4.308452] (-) TimerEvent: {}
+[4.410442] (-) TimerEvent: {}
+[4.515480] (-) TimerEvent: {}
+[4.601566] (my_cpp_pkg) StderrLine: {'line': b'gmake[2]: *** wait: No child processes.  Stop.\n'}
+[4.601966] (my_cpp_pkg) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[4.602176] (my_cpp_pkg) StderrLine: {'line': b'gmake[2]: *** wait: No child processes.  Stop.\n'}
+[4.607581] (my_cpp_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_node.dir/all] Error 2\n'}
+[4.607853] (my_cpp_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[4.618437] (-) TimerEvent: {}
+[4.655507] (my_cpp_pkg) CommandEnded: {'returncode': -2}
+[4.701624] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 'SIGINT'}
+[4.714617] (-) EventReactorShutdown: {}

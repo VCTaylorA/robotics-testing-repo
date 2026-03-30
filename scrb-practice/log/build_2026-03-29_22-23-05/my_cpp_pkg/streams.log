@@ -1,0 +1,9 @@
+[0.045s] Invoking command in '/home/taylor/scrb-practice/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taylor/scrb-practice/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/taylor/scrb-practice/build/my_cpp_pkg -- -j1 -l1
+[0.240s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[0.315s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[4.596s] gmake[2]: *** wait: No child processes.  Stop.
+[4.597s] gmake[2]: *** Waiting for unfinished jobs....
+[4.597s] gmake[2]: *** wait: No child processes.  Stop.
+[4.602s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_node.dir/all] Error 2
+[4.603s] gmake: *** [Makefile:146: all] Interrupt
+[4.650s] Invoked command in '/home/taylor/scrb-practice/build/my_cpp_pkg' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taylor/scrb-practice/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/taylor/scrb-practice/build/my_cpp_pkg -- -j1 -l1

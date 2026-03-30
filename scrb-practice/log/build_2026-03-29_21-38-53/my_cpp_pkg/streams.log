@@ -1,0 +1,11 @@
+[0.028s] Invoking command in '/home/taylor/scrb-practice/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taylor/scrb-practice/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/taylor/scrb-practice/build/my_cpp_pkg -- -j1 -l1
+[0.141s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[0.182s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[6.033s] [01m[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[6.033s] [01m[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:13:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclccp[m[K’ has not been declared
+[6.034s]    13 |     [01;31m[Krclccp[m[K::spin(node);
+[6.034s]       |     [01;31m[K^~~~~~[m[K
+[7.138s] gmake[2]: *** [CMakeFiles/cpp_node.dir/build.make:76: CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o] Error 1
+[7.141s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_node.dir/all] Error 2
+[7.142s] gmake: *** [Makefile:146: all] Error 2
+[7.148s] Invoked command in '/home/taylor/scrb-practice/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taylor/scrb-practice/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/taylor/scrb-practice/build/my_cpp_pkg -- -j1 -l1

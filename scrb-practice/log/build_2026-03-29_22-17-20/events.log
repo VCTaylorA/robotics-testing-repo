@@ -1,0 +1,199 @@
+[0.000000] (-) TimerEvent: {}
+[0.005974] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.006096] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.006958] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.040643] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.041038] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.044644] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/taylor/scrb-practice/build/my_cpp_pkg', '--', '-j1', '-l1'], 'cwd': '/home/taylor/scrb-practice/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'taylor'), ('SSH_CLIENT', '10.0.2.2 54674 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/taylor'), ('OLDPWD', '/home/taylor'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/taylor/scrb-practice/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'taylor'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'alacritty'), ('XDG_SESSION_ID', '8'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', ''), ('AMENT_PREFIX_PATH', '/home/taylor/scrb-practice/install/my_py_pkg:/home/taylor/scrb-practice/install/my_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('PWD', '/home/taylor/scrb-practice/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.2.2 54674 10.0.2.15 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/taylor/scrb-practice/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/taylor/scrb-practice/install/my_cpp_pkg:/home/taylor/scrb-practice/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.099958] (-) TimerEvent: {}
+[0.203724] (-) TimerEvent: {}
+[0.237850] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_node\x1b[0m\n'}
+[0.303908] (-) TimerEvent: {}
+[0.315684] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o\x1b[0m\n'}
+[0.404086] (-) TimerEvent: {}
+[0.506663] (-) TimerEvent: {}
+[0.610449] (-) TimerEvent: {}
+[0.711713] (-) TimerEvent: {}
+[0.816653] (-) TimerEvent: {}
+[0.917682] (-) TimerEvent: {}
+[1.022682] (-) TimerEvent: {}
+[1.124686] (-) TimerEvent: {}
+[1.225881] (-) TimerEvent: {}
+[1.328086] (-) TimerEvent: {}
+[1.429637] (-) TimerEvent: {}
+[1.532687] (-) TimerEvent: {}
+[1.635650] (-) TimerEvent: {}
+[1.740724] (-) TimerEvent: {}
+[1.842649] (-) TimerEvent: {}
+[1.944663] (-) TimerEvent: {}
+[2.048682] (-) TimerEvent: {}
+[2.151895] (-) TimerEvent: {}
+[2.252719] (-) TimerEvent: {}
+[2.354706] (-) TimerEvent: {}
+[2.456814] (-) TimerEvent: {}
+[2.561001] (-) TimerEvent: {}
+[2.662875] (-) TimerEvent: {}
+[2.765198] (-) TimerEvent: {}
+[2.866701] (-) TimerEvent: {}
+[2.968881] (-) TimerEvent: {}
+[3.072643] (-) TimerEvent: {}
+[3.173163] (-) TimerEvent: {}
+[3.276269] (-) TimerEvent: {}
+[3.377697] (-) TimerEvent: {}
+[3.479976] (-) TimerEvent: {}
+[3.582659] (-) TimerEvent: {}
+[3.687089] (-) TimerEvent: {}
+[3.790691] (-) TimerEvent: {}
+[3.891838] (-) TimerEvent: {}
+[3.993664] (-) TimerEvent: {}
+[4.095679] (-) TimerEvent: {}
+[4.198654] (-) TimerEvent: {}
+[4.301857] (-) TimerEvent: {}
+[4.402426] (-) TimerEvent: {}
+[4.506096] (-) TimerEvent: {}
+[4.609846] (-) TimerEvent: {}
+[4.712177] (-) TimerEvent: {}
+[4.815936] (-) TimerEvent: {}
+[4.919920] (-) TimerEvent: {}
+[5.020666] (-) TimerEvent: {}
+[5.121492] (-) TimerEvent: {}
+[5.225652] (-) TimerEvent: {}
+[5.327910] (-) TimerEvent: {}
+[5.431665] (-) TimerEvent: {}
+[5.532707] (-) TimerEvent: {}
+[5.635064] (-) TimerEvent: {}
+[5.736805] (-) TimerEvent: {}
+[5.838651] (-) TimerEvent: {}
+[5.940960] (-) TimerEvent: {}
+[6.045694] (-) TimerEvent: {}
+[6.147660] (-) TimerEvent: {}
+[6.250870] (-) TimerEvent: {}
+[6.351686] (-) TimerEvent: {}
+[6.453681] (-) TimerEvent: {}
+[6.554823] (-) TimerEvent: {}
+[6.656653] (-) TimerEvent: {}
+[6.759875] (-) TimerEvent: {}
+[6.861883] (-) TimerEvent: {}
+[6.966665] (-) TimerEvent: {}
+[7.069069] (-) TimerEvent: {}
+[7.172667] (-) TimerEvent: {}
+[7.273578] (-) TimerEvent: {}
+[7.375642] (-) TimerEvent: {}
+[7.479661] (-) TimerEvent: {}
+[7.580653] (-) TimerEvent: {}
+[7.682919] (-) TimerEvent: {}
+[7.785717] (-) TimerEvent: {}
+[7.887697] (-) TimerEvent: {}
+[7.989704] (-) TimerEvent: {}
+[8.092711] (-) TimerEvent: {}
+[8.194899] (-) TimerEvent: {}
+[8.301683] (-) TimerEvent: {}
+[8.402506] (-) TimerEvent: {}
+[8.505238] (-) TimerEvent: {}
+[8.607676] (-) TimerEvent: {}
+[8.711635] (-) TimerEvent: {}
+[8.814673] (-) TimerEvent: {}
+[8.918077] (-) TimerEvent: {}
+[9.020108] (-) TimerEvent: {}
+[9.124614] (-) TimerEvent: {}
+[9.225180] (-) TimerEvent: {}
+[9.328903] (-) TimerEvent: {}
+[9.431809] (-) TimerEvent: {}
+[9.534671] (-) TimerEvent: {}
+[9.636957] (-) TimerEvent: {}
+[9.739168] (-) TimerEvent: {}
+[9.840804] (-) TimerEvent: {}
+[9.945664] (-) TimerEvent: {}
+[10.048657] (-) TimerEvent: {}
+[10.152139] (-) TimerEvent: {}
+[10.243657] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:3:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclccp\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[10.245879] (my_cpp_pkg) StderrLine: {'line': b'    3 | class MyNode : public \x1b[01;31m\x1b[Krclccp\x1b[m\x1b[K::Node\n'}
+[10.246081] (my_cpp_pkg) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[10.248629] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:3:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[KNode\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.248833] (my_cpp_pkg) StderrLine: {'line': b'    3 | class MyNode : public rclccp::\x1b[01;31m\x1b[KNode\x1b[m\x1b[K\n'}
+[10.249019] (my_cpp_pkg) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[10.249158] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:5:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kpublic\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.249309] (my_cpp_pkg) StderrLine: {'line': b'    5 |                 \x1b[01;31m\x1b[Kpublic\x1b[m\x1b[K:\n'}
+[10.249439] (my_cpp_pkg) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[10.252672] (-) TimerEvent: {}
+[10.253653] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:5:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kpublic\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.253856] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:4:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.254069] (my_cpp_pkg) StderrLine: {'line': b'    4 |         \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[10.254243] (my_cpp_pkg) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[10.257611] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:9:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktimer_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktimer_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.257943] (my_cpp_pkg) StderrLine: {'line': b'    9 |                         \x1b[01;31m\x1b[Ktimer_\x1b[m\x1b[K = this->create_wall_timer(std::chrono::seconds(1), std::bind(&MyNode::timerCallback,this));\n'}
+[10.258159] (my_cpp_pkg) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[10.258294] (my_cpp_pkg) StderrLine: {'line': b'      |                         \x1b[32m\x1b[Ktimer_t\x1b[m\x1b[K\n'}
+[10.258424] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:12:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[10.261729] (my_cpp_pkg) StderrLine: {'line': b'   12 |                 \x1b[01;31m\x1b[K}\x1b[m\x1b[K\n'}
+[10.261899] (my_cpp_pkg) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.262076] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:14:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kprivate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.262210] (my_cpp_pkg) StderrLine: {'line': b'   14 |                 \x1b[01;31m\x1b[Kprivate\x1b[m\x1b[K:\n'}
+[10.262337] (my_cpp_pkg) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.263794] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:20:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclccp\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[10.266791] (my_cpp_pkg) StderrLine: {'line': b'   20 |                         \x1b[01;31m\x1b[Krclccp\x1b[m\x1b[K::TimerBase::SharedPtr timer_;//_ to denote private attribute\n'}
+[10.267042] (my_cpp_pkg) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[10.267205] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:23:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[10.267341] (my_cpp_pkg) StderrLine: {'line': b'   23 |         \x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[10.267509] (my_cpp_pkg) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.270789] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.271012] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:30:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kspin(std::shared_ptr<MyNode> (*&)())\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.271186] (my_cpp_pkg) StderrLine: {'line': b'   30 |     \x1b[01;31m\x1b[Krclcpp::spin(node)\x1b[m\x1b[K;\n'}
+[10.271329] (my_cpp_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[10.271492] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[10.274750] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:1\x1b[m\x1b[K:\n'}
+[10.274967] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.275159] (my_cpp_pkg) StderrLine: {'line': b'   45 | \x1b[01;36m\x1b[Kspin\x1b[m\x1b[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);\n'}
+[10.275301] (my_cpp_pkg) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[10.275456] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<MyNode> (*)()\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[10.278791] (my_cpp_pkg) StderrLine: {'line': b'   45 | spin(\x1b[01;36m\x1b[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr\x1b[m\x1b[K);\n'}
+[10.279011] (my_cpp_pkg) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[10.279157] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::spin(rclcpp::Node::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.279314] (my_cpp_pkg) StderrLine: {'line': b'   49 | \x1b[01;36m\x1b[Kspin\x1b[m\x1b[K(rclcpp::Node::SharedPtr node_ptr);\n'}
+[10.279454] (my_cpp_pkg) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[10.282698] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<MyNode> (*)()\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Node>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[10.282904] (my_cpp_pkg) StderrLine: {'line': b'   49 | spin(\x1b[01;36m\x1b[Krclcpp::Node::SharedPtr node_ptr\x1b[m\x1b[K);\n'}
+[10.283088] (my_cpp_pkg) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[10.354669] (-) TimerEvent: {}
+[10.456676] (-) TimerEvent: {}
+[10.558917] (-) TimerEvent: {}
+[10.662106] (-) TimerEvent: {}
+[10.763924] (-) TimerEvent: {}
+[10.866692] (-) TimerEvent: {}
+[10.968872] (-) TimerEvent: {}
+[11.073696] (-) TimerEvent: {}
+[11.174239] (-) TimerEvent: {}
+[11.276665] (-) TimerEvent: {}
+[11.377900] (-) TimerEvent: {}
+[11.480192] (-) TimerEvent: {}
+[11.582679] (-) TimerEvent: {}
+[11.669680] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:60\x1b[m\x1b[K,\n'}
+[11.671774] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:53\x1b[m\x1b[K,\n'}
+[11.671999] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[11.672149] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[11.672327] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:1\x1b[m\x1b[K:\n'}
+[11.672476] (my_cpp_pkg) StderrLine: {'line': b'/usr/include/c++/11/ext/aligned_buffer.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct __gnu_cxx::__aligned_buffer<MyNode>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.672754] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:506:35:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kclass std::_Sp_counted_ptr_inplace<MyNode, std::allocator<MyNode>, __gnu_cxx::_S_atomic>::_Impl\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.677736] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:567:13:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kclass std::_Sp_counted_ptr_inplace<MyNode, std::allocator<MyNode>, __gnu_cxx::_S_atomic>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.677932] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:647:43:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = MyNode; _Alloc = std::allocator<MyNode>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.678094] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MyNode>; _Args = {}; _Tp = MyNode; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.678293] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MyNode>; _Args = {}; _Tp = MyNode]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.678428] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = MyNode; _Alloc = std::allocator<MyNode>; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.681719] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = MyNode; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.681906] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:29:22:\x1b[m\x1b[K   required from here\n'}
+[11.682073] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/aligned_buffer.h:91:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid application of \xe2\x80\x98\x1b[01m\x1b[Ksizeof\x1b[m\x1b[K\xe2\x80\x99 to incomplete type \xe2\x80\x98\x1b[01m\x1b[KMyNode\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.682251] (my_cpp_pkg) StderrLine: {'line': b'   91 |     : std::aligned_storage<\x1b[01;31m\x1b[Ksizeof(_Tp)\x1b[m\x1b[K, __alignof__(_Tp)>\n'}
+[11.682386] (my_cpp_pkg) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.682518] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/aligned_buffer.h:91:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid application of \xe2\x80\x98\x1b[01m\x1b[Ksizeof\x1b[m\x1b[K\xe2\x80\x99 to incomplete type \xe2\x80\x98\x1b[01m\x1b[KMyNode\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.685757] (-) TimerEvent: {}
+[11.787669] (-) TimerEvent: {}
+[11.888456] (-) TimerEvent: {}
+[11.991108] (-) TimerEvent: {}
+[12.091661] (-) TimerEvent: {}
+[12.124323] (my_cpp_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cpp_node.dir/build.make:76: CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o] Error 1\n'}
+[12.125905] (my_cpp_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_node.dir/all] Error 2\n'}
+[12.126959] (my_cpp_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[12.134373] (my_cpp_pkg) CommandEnded: {'returncode': 2}
+[12.188776] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 2}
+[12.196018] (-) TimerEvent: {}
+[12.196326] (-) EventReactorShutdown: {}

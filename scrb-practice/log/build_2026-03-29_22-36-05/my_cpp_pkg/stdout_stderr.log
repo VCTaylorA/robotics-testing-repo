@@ -1,0 +1,14 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[01m[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:[m[K In constructor ‘[01m[KClassNode::ClassNode()[m[K’:
+[01m[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:8:25:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCCP_INFO[m[K’ was not declared in this scope; did you mean ‘[01m[KRCLCPP_INFO[m[K’?
+    8 |                         [01;31m[KRCLCCP_INFO[m[K(this->get_logger(), "msg from the class")
+      |                         [01;31m[K^~~~~~~~~~~[m[K
+      |                         [32m[KRCLCPP_INFO[m[K
+[01m[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:[m[K In member function ‘[01m[Kvoid ClassNode::timerCallback()[m[K’:
+[01m[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:17:33:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCCP_INFO[m[K’ was not declared in this scope; did you mean ‘[01m[KRCLCPP_INFO[m[K’?
+   17 |                                 [01;31m[KRCLCCP_INFO[m[K(this->get_logger(), "another msg %d",counter_);
+      |                                 [01;31m[K^~~~~~~~~~~[m[K
+      |                                 [32m[KRCLCPP_INFO[m[K
+gmake[2]: *** [CMakeFiles/cpp_node.dir/build.make:76: CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

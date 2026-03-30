@@ -1,0 +1,25 @@
+[0.038s] Invoking command in '/home/taylor/scrb-practice/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taylor/scrb-practice/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/taylor/scrb-practice/build/my_cpp_pkg -- -j1 -l1
+[0.334s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[8.395s] [100%] [32m[1mLinking CXX executable cpp_node[0m
+[8.715s] [100%] Built target cpp_node
+[8.745s] Invoked command in '/home/taylor/scrb-practice/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taylor/scrb-practice/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/taylor/scrb-practice/build/my_cpp_pkg -- -j1 -l1
+[8.779s] Invoking command in '/home/taylor/scrb-practice/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taylor/scrb-practice/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/taylor/scrb-practice/build/my_cpp_pkg
+[8.801s] -- Install configuration: ""
+[8.807s] -- Installing: /home/taylor/scrb-practice/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[8.809s] -- Set runtime path of "/home/taylor/scrb-practice/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node" to ""
+[8.812s] -- Installing: /home/taylor/scrb-practice/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[8.818s] -- Installing: /home/taylor/scrb-practice/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[8.820s] -- Installing: /home/taylor/scrb-practice/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[8.821s] -- Installing: /home/taylor/scrb-practice/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[8.823s] -- Installing: /home/taylor/scrb-practice/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[8.825s] -- Installing: /home/taylor/scrb-practice/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[8.827s] -- Installing: /home/taylor/scrb-practice/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[8.829s] -- Installing: /home/taylor/scrb-practice/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[8.831s] -- Installing: /home/taylor/scrb-practice/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[8.833s] -- Installing: /home/taylor/scrb-practice/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[8.835s] -- Installing: /home/taylor/scrb-practice/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[8.837s] -- Installing: /home/taylor/scrb-practice/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[8.840s] -- Installing: /home/taylor/scrb-practice/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[8.841s] -- Installing: /home/taylor/scrb-practice/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[8.843s] -- Installing: /home/taylor/scrb-practice/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[8.850s] Invoked command in '/home/taylor/scrb-practice/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taylor/scrb-practice/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/taylor/scrb-practice/build/my_cpp_pkg

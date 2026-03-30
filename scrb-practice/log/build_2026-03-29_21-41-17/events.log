@@ -1,0 +1,105 @@
+[0.000000] (-) TimerEvent: {}
+[0.001694] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.001796] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.002371] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.022192] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.023764] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.025489] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/taylor/scrb-practice/build/my_cpp_pkg', '--', '-j1', '-l1'], 'cwd': '/home/taylor/scrb-practice/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'taylor'), ('SSH_CLIENT', '10.0.2.2 54674 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/taylor'), ('OLDPWD', '/home/taylor'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/taylor/scrb-practice/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'taylor'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'alacritty'), ('XDG_SESSION_ID', '8'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', ''), ('AMENT_PREFIX_PATH', '/home/taylor/scrb-practice/install/my_py_pkg:/home/taylor/scrb-practice/install/my_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('PWD', '/home/taylor/scrb-practice/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.2.2 54674 10.0.2.15 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/taylor/scrb-practice/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/taylor/scrb-practice/install/my_cpp_pkg:/home/taylor/scrb-practice/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.101546] (-) TimerEvent: {}
+[0.131659] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_node\x1b[0m\n'}
+[0.175484] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o\x1b[0m\n'}
+[0.201692] (-) TimerEvent: {}
+[0.303897] (-) TimerEvent: {}
+[0.404798] (-) TimerEvent: {}
+[0.505762] (-) TimerEvent: {}
+[0.607752] (-) TimerEvent: {}
+[0.709536] (-) TimerEvent: {}
+[0.810478] (-) TimerEvent: {}
+[0.911318] (-) TimerEvent: {}
+[1.013994] (-) TimerEvent: {}
+[1.115066] (-) TimerEvent: {}
+[1.216517] (-) TimerEvent: {}
+[1.318742] (-) TimerEvent: {}
+[1.419759] (-) TimerEvent: {}
+[1.521529] (-) TimerEvent: {}
+[1.623516] (-) TimerEvent: {}
+[1.725569] (-) TimerEvent: {}
+[1.826084] (-) TimerEvent: {}
+[1.926859] (-) TimerEvent: {}
+[2.029098] (-) TimerEvent: {}
+[2.130718] (-) TimerEvent: {}
+[2.232548] (-) TimerEvent: {}
+[2.334238] (-) TimerEvent: {}
+[2.435741] (-) TimerEvent: {}
+[2.537556] (-) TimerEvent: {}
+[2.638136] (-) TimerEvent: {}
+[2.738763] (-) TimerEvent: {}
+[2.840772] (-) TimerEvent: {}
+[2.941565] (-) TimerEvent: {}
+[3.043556] (-) TimerEvent: {}
+[3.144476] (-) TimerEvent: {}
+[3.245331] (-) TimerEvent: {}
+[3.347882] (-) TimerEvent: {}
+[3.448567] (-) TimerEvent: {}
+[3.550703] (-) TimerEvent: {}
+[3.651314] (-) TimerEvent: {}
+[3.754051] (-) TimerEvent: {}
+[3.854651] (-) TimerEvent: {}
+[3.955184] (-) TimerEvent: {}
+[4.057055] (-) TimerEvent: {}
+[4.158064] (-) TimerEvent: {}
+[4.260003] (-) TimerEvent: {}
+[4.360902] (-) TimerEvent: {}
+[4.463005] (-) TimerEvent: {}
+[4.563724] (-) TimerEvent: {}
+[4.665550] (-) TimerEvent: {}
+[4.766386] (-) TimerEvent: {}
+[4.867515] (-) TimerEvent: {}
+[4.968426] (-) TimerEvent: {}
+[5.070760] (-) TimerEvent: {}
+[5.171720] (-) TimerEvent: {}
+[5.272676] (-) TimerEvent: {}
+[5.374559] (-) TimerEvent: {}
+[5.475140] (-) TimerEvent: {}
+[5.575781] (-) TimerEvent: {}
+[5.678529] (-) TimerEvent: {}
+[5.779312] (-) TimerEvent: {}
+[5.880120] (-) TimerEvent: {}
+[5.981937] (-) TimerEvent: {}
+[6.083805] (-) TimerEvent: {}
+[6.184915] (-) TimerEvent: {}
+[6.286970] (-) TimerEvent: {}
+[6.387921] (-) TimerEvent: {}
+[6.489975] (-) TimerEvent: {}
+[6.591047] (-) TimerEvent: {}
+[6.693058] (-) TimerEvent: {}
+[6.751844] (my_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cpp_node\x1b[0m\n'}
+[6.794525] (-) TimerEvent: {}
+[6.895183] (-) TimerEvent: {}
+[6.982516] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target cpp_node\n'}
+[6.995300] (-) TimerEvent: {}
+[7.009177] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[7.011998] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'install'}
+[7.032060] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/taylor/scrb-practice/build/my_cpp_pkg'], 'cwd': '/home/taylor/scrb-practice/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'taylor'), ('SSH_CLIENT', '10.0.2.2 54674 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/taylor'), ('OLDPWD', '/home/taylor'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/taylor/scrb-practice/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'taylor'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'alacritty'), ('XDG_SESSION_ID', '8'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', ''), ('AMENT_PREFIX_PATH', '/home/taylor/scrb-practice/install/my_py_pkg:/home/taylor/scrb-practice/install/my_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('PWD', '/home/taylor/scrb-practice/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.2.2 54674 10.0.2.15 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/taylor/scrb-practice/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/taylor/scrb-practice/install/my_cpp_pkg:/home/taylor/scrb-practice/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[7.051950] (my_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.053500] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/taylor/scrb-practice/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node\n'}
+[7.054997] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/taylor/scrb-practice/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node" to ""\n'}
+[7.056609] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/scrb-practice/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg\n'}
+[7.056831] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/scrb-practice/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg\n'}
+[7.057014] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/scrb-practice/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[7.057157] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/scrb-practice/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[7.057295] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/scrb-practice/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh\n'}
+[7.058625] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/scrb-practice/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv\n'}
+[7.058804] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/scrb-practice/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash\n'}
+[7.058979] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/scrb-practice/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh\n'}
+[7.059117] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/scrb-practice/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh\n'}
+[7.059246] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/scrb-practice/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv\n'}
+[7.060510] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/taylor/scrb-practice/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv\n'}
+[7.061754] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/scrb-practice/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg\n'}
+[7.061931] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/scrb-practice/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake\n'}
+[7.062088] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/scrb-practice/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake\n'}
+[7.062227] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/scrb-practice/install/my_cpp_pkg/share/my_cpp_pkg/package.xml\n'}
+[7.065587] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[7.095435] (-) TimerEvent: {}
+[7.106894] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[7.109228] (-) EventReactorShutdown: {}

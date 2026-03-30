@@ -1,0 +1,2 @@
+Invoking command in '/home/taylor/scrb-practice/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taylor/scrb-practice/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/taylor/scrb-practice/build/my_cpp_pkg -- -j1 -l1
+Invoked command in '/home/taylor/scrb-practice/build/my_cpp_pkg' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taylor/scrb-practice/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/taylor/scrb-practice/build/my_cpp_pkg -- -j1 -l1

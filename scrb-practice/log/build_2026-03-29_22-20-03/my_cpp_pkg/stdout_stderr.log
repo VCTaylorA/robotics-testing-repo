@@ -1,0 +1,43 @@
+[35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[01m[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:3:26:[m[K [01;31m[Kerror: [m[K‘[01m[Krclccp[m[K’ has not been declared
+    3 | class ClassNode : public [01;31m[Krclccp[m[K::Node
+      |                          [01;31m[K^~~~~~[m[K
+[01m[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:3:34:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[KNode[m[K’
+    3 | class ClassNode : public rclccp::[01;31m[KNode[m[K
+      |                                  [01;31m[K^~~~[m[K
+[01m[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:5:17:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kpublic[m[K’
+    5 |                 [01;31m[Kpublic[m[K:
+      |                 [01;31m[K^~~~~~[m[K
+[01m[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:5:17:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kpublic[m[K’
+[01m[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:4:9:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+    4 |         [01;36m[K{[m[K
+      |         [01;36m[K^[m[K
+[01m[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:9:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ does not name a type; did you mean ‘[01m[Ktimer_t[m[K’?
+    9 |                         [01;31m[Ktimer_[m[K = this->create_wall_timer(std::chrono::seconds(1), std::bind(&MyNode::timerCallback,this));
+      |                         [01;31m[K^~~~~~[m[K
+      |                         [32m[Ktimer_t[m[K
+[01m[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:12:17:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   12 |                 [01;31m[K}[m[K
+      |                 [01;31m[K^[m[K
+[01m[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:14:17:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+   14 |                 [01;31m[Kprivate[m[K:
+      |                 [01;31m[K^~~~~~~[m[K
+[01m[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:20:25:[m[K [01;31m[Kerror: [m[K‘[01m[Krclccp[m[K’ does not name a type
+   20 |                         [01;31m[Krclccp[m[K::TimerBase::SharedPtr timer_;//_ to denote private attribute
+      |                         [01;31m[K^~~~~~[m[K
+[01m[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:23:9:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   23 |         [01;31m[K}[m[K;
+      |         [01;31m[K^[m[K
+[01m[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:29:34:[m[K [01;31m[Kerror: [m[K‘[01m[KMyNode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+   29 |     auto node = std::make_shared<[01;31m[KMyNode[m[K>;
+      |                                  [01;31m[K^~~~~~[m[K
+      |                                  [32m[KNode[m[K
+[01m[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:29:22:[m[K [01;31m[Kerror: [m[Kunable to deduce ‘[01m[Kauto[m[K’ from ‘[01m[Kmake_shared<<expression error> >[m[K’
+   29 |     auto node = std::[01;31m[Kmake_shared<MyNode>[m[K;
+      |                      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:29:22:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[Kauto[m[K’
+gmake[2]: *** [CMakeFiles/cpp_node.dir/build.make:76: CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

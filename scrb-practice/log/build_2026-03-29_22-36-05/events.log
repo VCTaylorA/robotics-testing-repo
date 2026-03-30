@@ -1,0 +1,89 @@
+[0.000000] (-) TimerEvent: {}
+[0.001678] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.001819] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.002742] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.023555] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.024998] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.026306] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/taylor/scrb-practice/build/my_cpp_pkg', '--', '-j1', '-l1'], 'cwd': '/home/taylor/scrb-practice/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'taylor'), ('SSH_CLIENT', '10.0.2.2 54674 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/taylor'), ('OLDPWD', '/home/taylor'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/taylor/scrb-practice/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'taylor'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'alacritty'), ('XDG_SESSION_ID', '8'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', ''), ('AMENT_PREFIX_PATH', '/home/taylor/scrb-practice/install/my_py_pkg:/home/taylor/scrb-practice/install/my_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('PWD', '/home/taylor/scrb-practice/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.2.2 54674 10.0.2.15 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/taylor/scrb-practice/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/taylor/scrb-practice/install/my_cpp_pkg:/home/taylor/scrb-practice/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.099977] (-) TimerEvent: {}
+[0.160914] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o\x1b[0m\n'}
+[0.201405] (-) TimerEvent: {}
+[0.301868] (-) TimerEvent: {}
+[0.402715] (-) TimerEvent: {}
+[0.504652] (-) TimerEvent: {}
+[0.605434] (-) TimerEvent: {}
+[0.707871] (-) TimerEvent: {}
+[0.808767] (-) TimerEvent: {}
+[0.909318] (-) TimerEvent: {}
+[1.011054] (-) TimerEvent: {}
+[1.112920] (-) TimerEvent: {}
+[1.213830] (-) TimerEvent: {}
+[1.315970] (-) TimerEvent: {}
+[1.416580] (-) TimerEvent: {}
+[1.517487] (-) TimerEvent: {}
+[1.619836] (-) TimerEvent: {}
+[1.720463] (-) TimerEvent: {}
+[1.821387] (-) TimerEvent: {}
+[1.923927] (-) TimerEvent: {}
+[2.024877] (-) TimerEvent: {}
+[2.126461] (-) TimerEvent: {}
+[2.227089] (-) TimerEvent: {}
+[2.328962] (-) TimerEvent: {}
+[2.429922] (-) TimerEvent: {}
+[2.531897] (-) TimerEvent: {}
+[2.632878] (-) TimerEvent: {}
+[2.734928] (-) TimerEvent: {}
+[2.835881] (-) TimerEvent: {}
+[2.938004] (-) TimerEvent: {}
+[3.038898] (-) TimerEvent: {}
+[3.140710] (-) TimerEvent: {}
+[3.241598] (-) TimerEvent: {}
+[3.344145] (-) TimerEvent: {}
+[3.444792] (-) TimerEvent: {}
+[3.546448] (-) TimerEvent: {}
+[3.647374] (-) TimerEvent: {}
+[3.748213] (-) TimerEvent: {}
+[3.849472] (-) TimerEvent: {}
+[3.952077] (-) TimerEvent: {}
+[4.053216] (-) TimerEvent: {}
+[4.155939] (-) TimerEvent: {}
+[4.256484] (-) TimerEvent: {}
+[4.357422] (-) TimerEvent: {}
+[4.459787] (-) TimerEvent: {}
+[4.560373] (-) TimerEvent: {}
+[4.662679] (-) TimerEvent: {}
+[4.764494] (-) TimerEvent: {}
+[4.865434] (-) TimerEvent: {}
+[4.967899] (-) TimerEvent: {}
+[5.068875] (-) TimerEvent: {}
+[5.170475] (-) TimerEvent: {}
+[5.272072] (-) TimerEvent: {}
+[5.373481] (-) TimerEvent: {}
+[5.474044] (-) TimerEvent: {}
+[5.575956] (-) TimerEvent: {}
+[5.577094] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KClassNode::ClassNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.578662] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:8:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRCLCCP_INFO\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.578867] (my_cpp_pkg) StderrLine: {'line': b'    8 |                         \x1b[01;31m\x1b[KRCLCCP_INFO\x1b[m\x1b[K(this->get_logger(), "msg from the class")\n'}
+[5.579106] (my_cpp_pkg) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.579276] (my_cpp_pkg) StderrLine: {'line': b'      |                         \x1b[32m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\n'}
+[5.589604] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ClassNode::timerCallback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.589835] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:17:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRCLCCP_INFO\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.589993] (my_cpp_pkg) StderrLine: {'line': b'   17 |                                 \x1b[01;31m\x1b[KRCLCCP_INFO\x1b[m\x1b[K(this->get_logger(), "another msg %d",counter_);\n'}
+[5.590153] (my_cpp_pkg) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.590289] (my_cpp_pkg) StderrLine: {'line': b'      |                                 \x1b[32m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\n'}
+[5.676133] (-) TimerEvent: {}
+[5.777035] (-) TimerEvent: {}
+[5.878907] (-) TimerEvent: {}
+[5.980496] (-) TimerEvent: {}
+[6.081983] (-) TimerEvent: {}
+[6.183973] (-) TimerEvent: {}
+[6.285232] (-) TimerEvent: {}
+[6.386919] (-) TimerEvent: {}
+[6.488932] (-) TimerEvent: {}
+[6.590659] (-) TimerEvent: {}
+[6.592806] (my_cpp_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cpp_node.dir/build.make:76: CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o] Error 1\n'}
+[6.594030] (my_cpp_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_node.dir/all] Error 2\n'}
+[6.594462] (my_cpp_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.600677] (my_cpp_pkg) CommandEnded: {'returncode': 2}
+[6.627660] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 2}
+[6.638915] (-) EventReactorShutdown: {}

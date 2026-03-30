@@ -1,0 +1,6 @@
+Invoking command in '/home/taylor/scrb-practice/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/taylor/scrb-practice/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/taylor/scrb-practice/install/my_cpp_pkg
+Invoked command in '/home/taylor/scrb-practice/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/taylor/scrb-practice/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/taylor/scrb-practice/install/my_cpp_pkg
+Invoking command in '/home/taylor/scrb-practice/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/taylor/scrb-practice/build/my_cpp_pkg -- -j1 -l1
+Invoked command in '/home/taylor/scrb-practice/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/taylor/scrb-practice/build/my_cpp_pkg -- -j1 -l1
+Invoking command in '/home/taylor/scrb-practice/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/taylor/scrb-practice/build/my_cpp_pkg
+Invoked command in '/home/taylor/scrb-practice/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/taylor/scrb-practice/build/my_cpp_pkg

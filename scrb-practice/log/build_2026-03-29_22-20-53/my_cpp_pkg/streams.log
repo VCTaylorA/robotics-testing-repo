@@ -1,0 +1,72 @@
+[0.037s] Invoking command in '/home/taylor/scrb-practice/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taylor/scrb-practice/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/taylor/scrb-practice/build/my_cpp_pkg -- -j1 -l1
+[0.231s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[0.305s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[10.610s] [01m[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:3:26:[m[K [01;31m[Kerror: [m[K‘[01m[Krclccp[m[K’ has not been declared
+[10.610s]     3 | class ClassNode : public [01;31m[Krclccp[m[K::Node
+[10.610s]       |                          [01;31m[K^~~~~~[m[K
+[10.613s] [01m[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:3:34:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[KNode[m[K’
+[10.613s]     3 | class ClassNode : public rclccp::[01;31m[KNode[m[K
+[10.613s]       |                                  [01;31m[K^~~~[m[K
+[10.613s] [01m[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:5:17:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kpublic[m[K’
+[10.613s]     5 |                 [01;31m[Kpublic[m[K:
+[10.613s]       |                 [01;31m[K^~~~~~[m[K
+[10.619s] [01m[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:5:17:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kpublic[m[K’
+[10.619s] [01m[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:4:9:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[10.619s]     4 |         [01;36m[K{[m[K
+[10.619s]       |         [01;36m[K^[m[K
+[10.621s] [01m[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:9:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ does not name a type; did you mean ‘[01m[Ktimer_t[m[K’?
+[10.621s]     9 |                         [01;31m[Ktimer_[m[K = this->create_wall_timer(std::chrono::seconds(1), std::bind(&MyNode::timerCallback,this));
+[10.621s]       |                         [01;31m[K^~~~~~[m[K
+[10.621s]       |                         [32m[Ktimer_t[m[K
+[10.625s] [01m[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:12:17:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[10.625s]    12 |                 [01;31m[K}[m[K
+[10.625s]       |                 [01;31m[K^[m[K
+[10.625s] [01m[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:14:17:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+[10.625s]    14 |                 [01;31m[Kprivate[m[K:
+[10.625s]       |                 [01;31m[K^~~~~~~[m[K
+[10.630s] [01m[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:20:25:[m[K [01;31m[Kerror: [m[K‘[01m[Krclccp[m[K’ does not name a type
+[10.630s]    20 |                         [01;31m[Krclccp[m[K::TimerBase::SharedPtr timer_;//_ to denote private attribute
+[10.630s]       |                         [01;31m[K^~~~~~[m[K
+[10.630s] [01m[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:23:9:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[10.630s]    23 |         [01;31m[K}[m[K;
+[10.634s]       |         [01;31m[K^[m[K
+[10.634s] [01m[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[10.634s] [01m[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:30:17:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin(std::shared_ptr<ClassNode> (*&)())[m[K’
+[10.634s]    30 |     [01;31m[Krclcpp::spin(node)[m[K;
+[10.634s]       |     [01;31m[K~~~~~~~~~~~~^~~~~~[m[K
+[10.634s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[10.638s]                  from [01m[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:1[m[K:
+[10.638s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)[m[K’
+[10.638s]    45 | [01;36m[Kspin[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+[10.638s]       | [01;36m[K^~~~[m[K
+[10.638s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:60:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<ClassNode> (*)()[m[K’ to ‘[01m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>[m[K’}
+[10.642s]    45 | spin([01;36m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr[m[K);
+[10.642s]       |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[10.642s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::Node::SharedPtr)[m[K’
+[10.642s]    49 | [01;36m[Kspin[m[K(rclcpp::Node::SharedPtr node_ptr);
+[10.642s]       | [01;36m[K^~~~[m[K
+[10.642s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<ClassNode> (*)()[m[K’ to ‘[01m[Krclcpp::Node::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’}
+[10.646s]    49 | spin([01;36m[Krclcpp::Node::SharedPtr node_ptr[m[K);
+[10.646s]       |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[12.042s] In file included from [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:60[m[K,
+[12.043s]                  from [01m[K/usr/include/c++/11/bits/shared_ptr.h:53[m[K,
+[12.043s]                  from [01m[K/usr/include/c++/11/memory:77[m[K,
+[12.043s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[12.043s]                  from [01m[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:1[m[K:
+[12.043s] /usr/include/c++/11/ext/aligned_buffer.h: In instantiation of ‘[01m[Kstruct __gnu_cxx::__aligned_buffer<ClassNode>[m[K’:
+[12.047s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:506:35:[m[K   required from ‘[01m[Kclass std::_Sp_counted_ptr_inplace<ClassNode, std::allocator<ClassNode>, __gnu_cxx::_S_atomic>::_Impl[m[K’
+[12.047s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:567:13:[m[K   required from ‘[01m[Kclass std::_Sp_counted_ptr_inplace<ClassNode, std::allocator<ClassNode>, __gnu_cxx::_S_atomic>[m[K’
+[12.047s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:647:43:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = ClassNode; _Alloc = std::allocator<ClassNode>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[12.047s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<ClassNode>; _Args = {}; _Tp = ClassNode; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[12.049s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<ClassNode>; _Args = {}; _Tp = ClassNode][m[K’
+[12.049s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = ClassNode; _Alloc = std::allocator<ClassNode>; _Args = {}][m[K’
+[12.049s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = ClassNode; _Args = {}][m[K’
+[12.049s] [01m[K/home/taylor/scrb-practice/src/my_cpp_pkg/src/my_first_node.cpp:29:22:[m[K   required from here
+[12.051s] [01m[K/usr/include/c++/11/ext/aligned_buffer.h:91:28:[m[K [01;31m[Kerror: [m[Kinvalid application of ‘[01m[Ksizeof[m[K’ to incomplete type ‘[01m[KClassNode[m[K’
+[12.051s]    91 |     : std::aligned_storage<[01;31m[Ksizeof(_Tp)[m[K, __alignof__(_Tp)>
+[12.051s]       |                            [01;31m[K^~~~~~~~~~~[m[K
+[12.051s] [01m[K/usr/include/c++/11/ext/aligned_buffer.h:91:28:[m[K [01;31m[Kerror: [m[Kinvalid application of ‘[01m[Ksizeof[m[K’ to incomplete type ‘[01m[KClassNode[m[K’
+[12.498s] gmake[2]: *** [CMakeFiles/cpp_node.dir/build.make:76: CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o] Error 1
+[12.498s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_node.dir/all] Error 2
+[12.504s] gmake: *** [Makefile:146: all] Error 2
+[12.514s] Invoked command in '/home/taylor/scrb-practice/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taylor/scrb-practice/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/taylor/scrb-practice/build/my_cpp_pkg -- -j1 -l1

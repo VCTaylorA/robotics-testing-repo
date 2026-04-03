@@ -1,0 +1,41 @@
+[1.877s] Invoking command in '/home/taylor/Documents/scrb-workspace/scrb-introtask/intro_py_pkg': PYTHONPATH=/home/taylor/Documents/scrb-workspace/scrb-introtask/build/intro_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/taylor/Documents/scrb-workspace/scrb-introtask/install/intro_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/intro_py_pkg build --build-base /home/taylor/Documents/scrb-workspace/scrb-introtask/build/intro_py_pkg/build install --record /home/taylor/Documents/scrb-workspace/scrb-introtask/build/intro_py_pkg/install.log --single-version-externally-managed install_data
+[2.655s] running egg_info
+[2.658s] creating ../build/intro_py_pkg/intro_py_pkg.egg-info
+[2.663s] writing ../build/intro_py_pkg/intro_py_pkg.egg-info/PKG-INFO
+[2.664s] writing dependency_links to ../build/intro_py_pkg/intro_py_pkg.egg-info/dependency_links.txt
+[2.664s] writing entry points to ../build/intro_py_pkg/intro_py_pkg.egg-info/entry_points.txt
+[2.664s] writing requirements to ../build/intro_py_pkg/intro_py_pkg.egg-info/requires.txt
+[2.669s] writing top-level names to ../build/intro_py_pkg/intro_py_pkg.egg-info/top_level.txt
+[2.669s] writing manifest file '../build/intro_py_pkg/intro_py_pkg.egg-info/SOURCES.txt'
+[2.675s] reading manifest file '../build/intro_py_pkg/intro_py_pkg.egg-info/SOURCES.txt'
+[2.681s] writing manifest file '../build/intro_py_pkg/intro_py_pkg.egg-info/SOURCES.txt'
+[2.682s] running build
+[2.684s] running build_py
+[2.685s] creating /home/taylor/Documents/scrb-workspace/scrb-introtask/build/intro_py_pkg/build
+[2.685s] creating /home/taylor/Documents/scrb-workspace/scrb-introtask/build/intro_py_pkg/build/lib
+[2.687s] creating /home/taylor/Documents/scrb-workspace/scrb-introtask/build/intro_py_pkg/build/lib/intro_py_pkg
+[2.689s] copying intro_py_pkg/subscriber.py -> /home/taylor/Documents/scrb-workspace/scrb-introtask/build/intro_py_pkg/build/lib/intro_py_pkg
+[2.690s] copying intro_py_pkg/__init__.py -> /home/taylor/Documents/scrb-workspace/scrb-introtask/build/intro_py_pkg/build/lib/intro_py_pkg
+[2.692s] copying intro_py_pkg/publisher.py -> /home/taylor/Documents/scrb-workspace/scrb-introtask/build/intro_py_pkg/build/lib/intro_py_pkg
+[2.693s] running install
+[2.696s] running install_lib
+[2.698s] creating /home/taylor/Documents/scrb-workspace/scrb-introtask/install/intro_py_pkg/lib/python3.10/site-packages/intro_py_pkg
+[2.700s] copying /home/taylor/Documents/scrb-workspace/scrb-introtask/build/intro_py_pkg/build/lib/intro_py_pkg/subscriber.py -> /home/taylor/Documents/scrb-workspace/scrb-introtask/install/intro_py_pkg/lib/python3.10/site-packages/intro_py_pkg
+[2.701s] copying /home/taylor/Documents/scrb-workspace/scrb-introtask/build/intro_py_pkg/build/lib/intro_py_pkg/__init__.py -> /home/taylor/Documents/scrb-workspace/scrb-introtask/install/intro_py_pkg/lib/python3.10/site-packages/intro_py_pkg
+[2.706s] copying /home/taylor/Documents/scrb-workspace/scrb-introtask/build/intro_py_pkg/build/lib/intro_py_pkg/publisher.py -> /home/taylor/Documents/scrb-workspace/scrb-introtask/install/intro_py_pkg/lib/python3.10/site-packages/intro_py_pkg
+[2.707s] byte-compiling /home/taylor/Documents/scrb-workspace/scrb-introtask/install/intro_py_pkg/lib/python3.10/site-packages/intro_py_pkg/subscriber.py to subscriber.cpython-310.pyc
+[2.710s] byte-compiling /home/taylor/Documents/scrb-workspace/scrb-introtask/install/intro_py_pkg/lib/python3.10/site-packages/intro_py_pkg/__init__.py to __init__.cpython-310.pyc
+[2.717s] byte-compiling /home/taylor/Documents/scrb-workspace/scrb-introtask/install/intro_py_pkg/lib/python3.10/site-packages/intro_py_pkg/publisher.py to publisher.cpython-310.pyc
+[2.717s] running install_data
+[2.717s] creating /home/taylor/Documents/scrb-workspace/scrb-introtask/install/intro_py_pkg/share/ament_index
+[2.719s] creating /home/taylor/Documents/scrb-workspace/scrb-introtask/install/intro_py_pkg/share/ament_index/resource_index
+[2.726s] creating /home/taylor/Documents/scrb-workspace/scrb-introtask/install/intro_py_pkg/share/ament_index/resource_index/packages
+[2.726s] copying resource/intro_py_pkg -> /home/taylor/Documents/scrb-workspace/scrb-introtask/install/intro_py_pkg/share/ament_index/resource_index/packages
+[2.726s] copying package.xml -> /home/taylor/Documents/scrb-workspace/scrb-introtask/install/intro_py_pkg/share/intro_py_pkg
+[2.726s] running install_egg_info
+[2.737s] Copying ../build/intro_py_pkg/intro_py_pkg.egg-info to /home/taylor/Documents/scrb-workspace/scrb-introtask/install/intro_py_pkg/lib/python3.10/site-packages/intro_py_pkg-0.0.0-py3.10.egg-info
+[2.744s] running install_scripts
+[2.807s] Installing listener script to /home/taylor/Documents/scrb-workspace/scrb-introtask/install/intro_py_pkg/lib/intro_py_pkg
+[2.809s] Installing talker script to /home/taylor/Documents/scrb-workspace/scrb-introtask/install/intro_py_pkg/lib/intro_py_pkg
+[2.812s] writing list of installed files to '/home/taylor/Documents/scrb-workspace/scrb-introtask/build/intro_py_pkg/install.log'
+[2.861s] Invoked command in '/home/taylor/Documents/scrb-workspace/scrb-introtask/intro_py_pkg' returned '0': PYTHONPATH=/home/taylor/Documents/scrb-workspace/scrb-introtask/build/intro_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/taylor/Documents/scrb-workspace/scrb-introtask/install/intro_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/intro_py_pkg build --build-base /home/taylor/Documents/scrb-workspace/scrb-introtask/build/intro_py_pkg/build install --record /home/taylor/Documents/scrb-workspace/scrb-introtask/build/intro_py_pkg/install.log --single-version-externally-managed install_data

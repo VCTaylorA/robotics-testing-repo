@@ -1,0 +1,4 @@
+[console_scripts]
+listener = intro_py_pkg.subscriber:main
+talker = intro_py_pkg.publisher:main
+

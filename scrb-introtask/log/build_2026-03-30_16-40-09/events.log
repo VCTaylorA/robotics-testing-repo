@@ -1,0 +1,57 @@
+[0.000000] (-) TimerEvent: {}
+[0.000869] (intro_py_pkg) JobQueued: {'identifier': 'intro_py_pkg', 'dependencies': OrderedDict()}
+[0.002084] (intro_py_pkg) JobStarted: {'identifier': 'intro_py_pkg'}
+[0.099183] (-) TimerEvent: {}
+[0.201661] (-) TimerEvent: {}
+[0.303945] (-) TimerEvent: {}
+[0.404905] (-) TimerEvent: {}
+[0.507401] (-) TimerEvent: {}
+[0.608483] (-) TimerEvent: {}
+[0.709956] (-) TimerEvent: {}
+[0.812328] (-) TimerEvent: {}
+[0.913779] (-) TimerEvent: {}
+[1.014757] (-) TimerEvent: {}
+[1.116796] (-) TimerEvent: {}
+[1.217370] (-) TimerEvent: {}
+[1.320949] (-) TimerEvent: {}
+[1.421454] (-) TimerEvent: {}
+[1.523313] (-) TimerEvent: {}
+[1.624924] (-) TimerEvent: {}
+[1.726112] (-) TimerEvent: {}
+[1.830959] (-) TimerEvent: {}
+[1.865794] (intro_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/intro_py_pkg', 'build', '--build-base', '/home/taylor/Documents/scrb-workspace/scrb-introtask/build/intro_py_pkg/build', 'install', '--record', '/home/taylor/Documents/scrb-workspace/scrb-introtask/build/intro_py_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/taylor/Documents/scrb-workspace/scrb-introtask/intro_py_pkg', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'taylor', 'SSH_CLIENT': '10.0.2.2 55772 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/taylor/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/taylor/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/taylor', 'OLDPWD': '/home/taylor/Documents/scrb-workspace', 'TERM_PROGRAM_VERSION': '1.113.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-90010b9e-8453-4fc7-ab0e-4a55a7d3ffff.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/taylor/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/taylor/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/taylor/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/taylor/Documents/scrb-workspace/scrb-introtask/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'taylor', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/taylor/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/taylor/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/taylor/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/taylor/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/taylor/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e8ba7d7ff0586037.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/taylor/.vscode-server/data/User/workspaceStorage/80004fa97b8f47c3150404c449c877af/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-fbb22c810b.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/taylor/Documents/scrb-workspace/scrb-introtask/install/intro_py_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/taylor/Documents/scrb-workspace/scrb-introtask/build/intro_py_pkg', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.0.2.2 55772 10.0.2.15 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/taylor/Documents/scrb-workspace/scrb-introtask/build/intro_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/taylor/Documents/scrb-workspace/scrb-introtask/install/intro_py_pkg/lib/python3.10/site-packages:/home/taylor/Documents/scrb-workspace/scrb-introtask/install/intro_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1'}, 'shell': False}
+[1.931948] (-) TimerEvent: {}
+[2.034280] (-) TimerEvent: {}
+[2.135365] (-) TimerEvent: {}
+[2.236154] (-) TimerEvent: {}
+[2.337768] (-) TimerEvent: {}
+[2.441301] (-) TimerEvent: {}
+[2.542470] (-) TimerEvent: {}
+[2.589585] (intro_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.593702] (intro_py_pkg) StdoutLine: {'line': b'writing ../build/intro_py_pkg/intro_py_pkg.egg-info/PKG-INFO\n'}
+[2.594824] (intro_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../build/intro_py_pkg/intro_py_pkg.egg-info/dependency_links.txt\n'}
+[2.597466] (intro_py_pkg) StdoutLine: {'line': b'writing entry points to ../build/intro_py_pkg/intro_py_pkg.egg-info/entry_points.txt\n'}
+[2.598286] (intro_py_pkg) StdoutLine: {'line': b'writing requirements to ../build/intro_py_pkg/intro_py_pkg.egg-info/requires.txt\n'}
+[2.600008] (intro_py_pkg) StdoutLine: {'line': b'writing top-level names to ../build/intro_py_pkg/intro_py_pkg.egg-info/top_level.txt\n'}
+[2.604145] (intro_py_pkg) StdoutLine: {'line': b"reading manifest file '../build/intro_py_pkg/intro_py_pkg.egg-info/SOURCES.txt'\n"}
+[2.607212] (intro_py_pkg) StdoutLine: {'line': b"writing manifest file '../build/intro_py_pkg/intro_py_pkg.egg-info/SOURCES.txt'\n"}
+[2.610038] (intro_py_pkg) StdoutLine: {'line': b'running build\n'}
+[2.611345] (intro_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[2.611545] (intro_py_pkg) StdoutLine: {'line': b'copying intro_py_pkg/subscriber.py -> /home/taylor/Documents/scrb-workspace/scrb-introtask/build/intro_py_pkg/build/lib/intro_py_pkg\n'}
+[2.614398] (intro_py_pkg) StdoutLine: {'line': b'running install\n'}
+[2.615581] (intro_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[2.618390] (intro_py_pkg) StdoutLine: {'line': b'copying /home/taylor/Documents/scrb-workspace/scrb-introtask/build/intro_py_pkg/build/lib/intro_py_pkg/subscriber.py -> /home/taylor/Documents/scrb-workspace/scrb-introtask/install/intro_py_pkg/lib/python3.10/site-packages/intro_py_pkg\n'}
+[2.620829] (intro_py_pkg) StdoutLine: {'line': b'byte-compiling /home/taylor/Documents/scrb-workspace/scrb-introtask/install/intro_py_pkg/lib/python3.10/site-packages/intro_py_pkg/subscriber.py to subscriber.cpython-310.pyc\n'}
+[2.623566] (intro_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[2.624907] (intro_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.629621] (intro_py_pkg) StdoutLine: {'line': b"removing '/home/taylor/Documents/scrb-workspace/scrb-introtask/install/intro_py_pkg/lib/python3.10/site-packages/intro_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.630345] (intro_py_pkg) StdoutLine: {'line': b'Copying ../build/intro_py_pkg/intro_py_pkg.egg-info to /home/taylor/Documents/scrb-workspace/scrb-introtask/install/intro_py_pkg/lib/python3.10/site-packages/intro_py_pkg-0.0.0-py3.10.egg-info\n'}
+[2.633614] (intro_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[2.642587] (-) TimerEvent: {}
+[2.685553] (intro_py_pkg) StdoutLine: {'line': b'Installing listener script to /home/taylor/Documents/scrb-workspace/scrb-introtask/install/intro_py_pkg/lib/intro_py_pkg\n'}
+[2.687704] (intro_py_pkg) StdoutLine: {'line': b'Installing talker script to /home/taylor/Documents/scrb-workspace/scrb-introtask/install/intro_py_pkg/lib/intro_py_pkg\n'}
+[2.690053] (intro_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/taylor/Documents/scrb-workspace/scrb-introtask/build/intro_py_pkg/install.log'\n"}
+[2.742785] (-) TimerEvent: {}
+[2.758634] (intro_py_pkg) CommandEnded: {'returncode': 0}
+[2.800907] (intro_py_pkg) JobEnded: {'identifier': 'intro_py_pkg', 'rc': 0}
+[2.804397] (-) EventReactorShutdown: {}

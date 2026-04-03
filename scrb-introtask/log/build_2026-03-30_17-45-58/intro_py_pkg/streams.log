@@ -1,0 +1,28 @@
+[1.764s] Invoking command in '/home/taylor/Documents/scrb-workspace/scrb-introtask/intro_py_pkg': PYTHONPATH=/home/taylor/Documents/scrb-workspace/scrb-introtask/build/intro_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/taylor/Documents/scrb-workspace/scrb-introtask/install/intro_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/intro_py_pkg build --build-base /home/taylor/Documents/scrb-workspace/scrb-introtask/build/intro_py_pkg/build install --record /home/taylor/Documents/scrb-workspace/scrb-introtask/build/intro_py_pkg/install.log --single-version-externally-managed install_data
+[2.544s] running egg_info
+[2.548s] writing ../build/intro_py_pkg/intro_py_pkg.egg-info/PKG-INFO
+[2.552s] writing dependency_links to ../build/intro_py_pkg/intro_py_pkg.egg-info/dependency_links.txt
+[2.552s] writing entry points to ../build/intro_py_pkg/intro_py_pkg.egg-info/entry_points.txt
+[2.555s] writing requirements to ../build/intro_py_pkg/intro_py_pkg.egg-info/requires.txt
+[2.555s] writing top-level names to ../build/intro_py_pkg/intro_py_pkg.egg-info/top_level.txt
+[2.562s] reading manifest file '../build/intro_py_pkg/intro_py_pkg.egg-info/SOURCES.txt'
+[2.565s] writing manifest file '../build/intro_py_pkg/intro_py_pkg.egg-info/SOURCES.txt'
+[2.567s] running build
+[2.567s] running build_py
+[2.569s] copying intro_py_pkg/subscriber.py -> /home/taylor/Documents/scrb-workspace/scrb-introtask/build/intro_py_pkg/build/lib/intro_py_pkg
+[2.572s] copying intro_py_pkg/publisher.py -> /home/taylor/Documents/scrb-workspace/scrb-introtask/build/intro_py_pkg/build/lib/intro_py_pkg
+[2.575s] running install
+[2.577s] running install_lib
+[2.579s] copying /home/taylor/Documents/scrb-workspace/scrb-introtask/build/intro_py_pkg/build/lib/intro_py_pkg/subscriber.py -> /home/taylor/Documents/scrb-workspace/scrb-introtask/install/intro_py_pkg/lib/python3.10/site-packages/intro_py_pkg
+[2.581s] copying /home/taylor/Documents/scrb-workspace/scrb-introtask/build/intro_py_pkg/build/lib/intro_py_pkg/publisher.py -> /home/taylor/Documents/scrb-workspace/scrb-introtask/install/intro_py_pkg/lib/python3.10/site-packages/intro_py_pkg
+[2.583s] byte-compiling /home/taylor/Documents/scrb-workspace/scrb-introtask/install/intro_py_pkg/lib/python3.10/site-packages/intro_py_pkg/subscriber.py to subscriber.cpython-310.pyc
+[2.586s] byte-compiling /home/taylor/Documents/scrb-workspace/scrb-introtask/install/intro_py_pkg/lib/python3.10/site-packages/intro_py_pkg/publisher.py to publisher.cpython-310.pyc
+[2.588s] running install_data
+[2.589s] running install_egg_info
+[2.596s] removing '/home/taylor/Documents/scrb-workspace/scrb-introtask/install/intro_py_pkg/lib/python3.10/site-packages/intro_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.600s] Copying ../build/intro_py_pkg/intro_py_pkg.egg-info to /home/taylor/Documents/scrb-workspace/scrb-introtask/install/intro_py_pkg/lib/python3.10/site-packages/intro_py_pkg-0.0.0-py3.10.egg-info
+[2.605s] running install_scripts
+[2.656s] Installing listener script to /home/taylor/Documents/scrb-workspace/scrb-introtask/install/intro_py_pkg/lib/intro_py_pkg
+[2.659s] Installing talker script to /home/taylor/Documents/scrb-workspace/scrb-introtask/install/intro_py_pkg/lib/intro_py_pkg
+[2.661s] writing list of installed files to '/home/taylor/Documents/scrb-workspace/scrb-introtask/build/intro_py_pkg/install.log'
+[2.711s] Invoked command in '/home/taylor/Documents/scrb-workspace/scrb-introtask/intro_py_pkg' returned '0': PYTHONPATH=/home/taylor/Documents/scrb-workspace/scrb-introtask/build/intro_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/taylor/Documents/scrb-workspace/scrb-introtask/install/intro_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/intro_py_pkg build --build-base /home/taylor/Documents/scrb-workspace/scrb-introtask/build/intro_py_pkg/build install --record /home/taylor/Documents/scrb-workspace/scrb-introtask/build/intro_py_pkg/install.log --single-version-externally-managed install_data

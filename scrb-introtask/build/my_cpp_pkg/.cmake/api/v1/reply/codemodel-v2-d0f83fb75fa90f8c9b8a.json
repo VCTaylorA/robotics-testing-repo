@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c5c55d5dac74e4738c07.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "my_cpp_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "listener::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-listener-73c1417339bdba3360bc.json",
+					"name" : "listener",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_cpp_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_cpp_pkg_uninstall-8b5c79eeb87a47f00a7c.json",
+					"name" : "my_cpp_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "talker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-talker-5d0e71a4d08b26c86682.json",
+					"name" : "talker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6daccc70776f39ab48fd.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg",
+		"source" : "/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

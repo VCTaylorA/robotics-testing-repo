@@ -1,0 +1,70 @@
+[0.020s] Invoking command in '/home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg
+[0.050s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.277s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.426s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.482s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.488s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.501s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.518s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.542s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.607s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.609s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.765s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.804s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.871s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.885s] -- Looking for pthread.h
+[1.040s] -- Looking for pthread.h - found
+[1.040s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.173s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.175s] -- Found Threads: TRUE  
+[1.257s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.368s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.369s] -- Configured cppcheck include dirs: 
+[1.369s] -- Configured cppcheck exclude dirs and/or files: 
+[1.369s] -- Added test 'lint_cmake' to check CMake code style
+[1.370s] -- Added test 'uncrustify' to check C / C++ code style
+[1.371s] -- Configured uncrustify additional arguments: 
+[1.371s] -- Added test 'xmllint' to check XML markup files
+[1.375s] -- Configuring done
+[1.396s] -- Generating done
+[1.403s] -- Build files have been written to: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg
+[1.415s] Invoked command in '/home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg
+[1.419s] Invoking command in '/home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg -- -j6 -l6
+[1.504s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o[0m
+[1.504s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber.cpp.o[0m
+[5.173s] [01m[K/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg/src/subscriber.cpp:26:36:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’
+[5.174s]    26 |                 void callback[34m[K([m[Kconst[01;31m[K [m[K[32m[Kstd_msgs[m[K::)
+[5.175s]       |                              [34m[K~[m[K     [01;31m[K^[m[K[32m[K~~~~~~~~[m[K
+[5.175s]       |                                    [32m[K)[m[K
+[5.175s] [01m[K/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg/src/subscriber.cpp:26:31:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[5.175s]    26 |                 void callback([01;31m[Kconst[m[K std_msgs::)
+[5.175s]       |                               [01;31m[K^~~~~[m[K
+[5.175s]       |                                    [32m[K;[m[K
+[5.175s] [01m[K/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg/src/subscriber.cpp:26:47:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+[5.175s]    26 |                 void callback(const std_msgs::[01;31m[K)[m[K
+[5.176s]       |                                               [01;31m[K^[m[K
+[5.236s] [01m[K/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg/src/subscriber.cpp:[m[K In constructor ‘[01m[KIntroSubscriber::IntroSubscriber()[m[K’:
+[5.236s] [01m[K/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg/src/subscriber.cpp:13:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass IntroSubscriber[m[K’ has no member named ‘[01m[Kcreate_subscriber[m[K’; did you mean ‘[01m[Kcreate_subscription[m[K’?
+[5.236s]    13 |                         auto string_subscription_ = this->[01;31m[Kcreate_subscriber[m[K<std_msgs::msg::String >("string_topic",5);
+[5.236s]       |                                                           [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[5.236s]       |                                                           [32m[Kcreate_subscription[m[K
+[5.239s] [01m[K/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg/src/subscriber.cpp:13:99:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[5.239s]    13 |                         auto string_subscription_ = this->create_subscriber<std_msgs::msg::String [01;31m[K>[m[K("string_topic",5);
+[5.239s]       |                                                                                                   [01;31m[K^[m[K
+[5.239s] [01m[K/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg/src/subscriber.cpp:13:101:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[5.239s]    13 |                         auto string_subscription_ = this->create_subscriber<std_msgs::msg::String >([01;35m[K"string_topic"[m[K,5);
+[5.239s]       |                                                                                                     [01;35m[K^~~~~~~~~~~~~~[m[K
+[5.239s] [01m[K/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg/src/subscriber.cpp:17:52:[m[K [01;31m[Kerror: [m[K‘[01m[KIntroPublisher[m[K’ has not been declared
+[5.239s]    17 |                                         std::bind(&[01;31m[KIntroPublisher[m[K::timer_callback, this)
+[5.239s]       |                                                    [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.245s] [01m[K/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg/src/publisher.cpp:[m[K In constructor ‘[01m[KIntroPublisher::IntroPublisher()[m[K’:
+[5.245s] [01m[K/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg/src/publisher.cpp:23:43:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K:[m[K’ token
+[5.245s]    23 |                                         );[01;31m[K:[m[K
+[5.245s]       |                                           [01;31m[K^[m[K
+[5.956s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber.cpp.o] Error 1
+[5.956s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+[5.956s] gmake[1]: *** Waiting for unfinished jobs....
+[6.532s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher.cpp.o] Error 1
+[6.533s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+[6.533s] gmake: *** [Makefile:146: all] Error 2
+[6.537s] Invoked command in '/home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg -- -j6 -l6

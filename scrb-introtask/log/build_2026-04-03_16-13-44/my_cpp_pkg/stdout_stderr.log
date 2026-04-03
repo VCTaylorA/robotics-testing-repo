@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable talker[0m
+[ 75%] Built target talker
+[100%] [32m[1mLinking CXX executable listener[0m
+[100%] Built target listener
+-- Install configuration: ""
+-- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/lib/my_cpp_pkg/talker
+-- Set runtime path of "/home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/lib/my_cpp_pkg/talker" to ""
+-- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/lib/my_cpp_pkg/listener
+-- Set runtime path of "/home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/lib/my_cpp_pkg/listener" to ""
+-- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+-- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+-- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+-- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+-- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+-- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+-- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+-- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+-- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+-- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+-- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+-- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+-- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+-- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/my_cpp_pkg/package.xml

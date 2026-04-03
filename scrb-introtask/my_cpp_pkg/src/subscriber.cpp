@@ -1,37 +1,28 @@
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/string.hpp"
-
+//see publisher.cpp for more comments on the methods (theyre relatively similar)
 class IntroSubscriber : public rclcpp::Node
 {
 
 
 	public:
 		IntroSubscriber() : Node("intro_subscriber") {//constructor
-			//this-> is the equivalent of using self.
 			//<std_msg...> defines the type	
 			//we use the string_topic topic and set the queue/buffer to 5.
 						
-			auto string_subscriber_ = this->create_subscriber<std_msgs::msg::String >("string_topic",5);
-			//params are period, callback, group
-			auto timer_=this->create_wall_timer(
-					//std::bind(a,b) makes it so that function a is called from b (maybe??)
-					std::bind(&IntroPublisher::timer_callback, this)
-			
-					
-					);
+			string_subscription_ = this->create_subscription<std_msgs::msg::String>(
+				"string_topic", 5, std::bind(&IntroSubscriber::callback, this, std::placeholders::_1));
 		}
 		
 
 
 	private:
-		void callback(const =){
-		RCLCPP_INFO(this->get_logger(), "I heard: %s", msg->data.c_str());// instead of using (*msg).data we use msg->data
-		
-		
+		void callback(const std_msgs::msg::String::SharedPtr msg)
+		{
+			RCLCPP_INFO(this->get_logger(), "I heard: %s", msg->data.c_str());
 		}
 
-		
-		
+		rclcpp::Subscription<std_msgs::msg::String>::SharedPtr string_subscription_;
 
 
 };
@@ -40,10 +31,9 @@ class IntroSubscriber : public rclcpp::Node
 
 
 int main(int argc, char **argv){
+
 	rclcpp::init(argc, argv);
-
-
-
+	rclcpp::spin(std::make_shared<IntroSubscriber>());
 	rclcpp::shutdown();
 	return 0;
 }

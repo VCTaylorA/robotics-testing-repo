@@ -1,0 +1,41 @@
+[0.018s] Invoking command in '/home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg -- -j6 -l6
+[0.099s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.106s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.148s] [ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber.cpp.o[0m
+[0.150s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o[0m
+[3.790s] [01m[K/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg/src/publisher.cpp:[m[K In constructor ‘[01m[KIntroPublisher::IntroPublisher()[m[K’:
+[3.790s] [01m[K/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg/src/publisher.cpp:23:43:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K:[m[K’ token
+[3.790s]    23 |                                         );[01;31m[K:[m[K
+[3.790s]       |                                           [01;31m[K^[m[K
+[3.824s] [01m[K/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg/src/subscriber.cpp:26:36:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’
+[3.825s]    26 |                 void callback[34m[K([m[Kconst[01;31m[K [m[K[32m[Kstd_msgs[m[K::)
+[3.825s]       |                              [34m[K~[m[K     [01;31m[K^[m[K[32m[K~~~~~~~~[m[K
+[3.825s]       |                                    [32m[K)[m[K
+[3.825s] [01m[K/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg/src/subscriber.cpp:26:31:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[3.825s]    26 |                 void callback([01;31m[Kconst[m[K std_msgs::)
+[3.825s]       |                               [01;31m[K^~~~~[m[K
+[3.825s]       |                                    [32m[K;[m[K
+[3.826s] [01m[K/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg/src/subscriber.cpp:26:47:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+[3.826s]    26 |                 void callback(const std_msgs::[01;31m[K)[m[K
+[3.826s]       |                                               [01;31m[K^[m[K
+[3.890s] [01m[K/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg/src/subscriber.cpp:[m[K In constructor ‘[01m[KIntroSubscriber::IntroSubscriber()[m[K’:
+[3.891s] [01m[K/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg/src/subscriber.cpp:13:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass IntroSubscriber[m[K’ has no member named ‘[01m[Kcreate_subscriber[m[K’; did you mean ‘[01m[Kcreate_subscription[m[K’?
+[3.891s]    13 |                         auto string_subscription_ = this->[01;31m[Kcreate_subscriber[m[K<std_msgs::msg::String >("string_topic",5);
+[3.891s]       |                                                           [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.891s]       |                                                           [32m[Kcreate_subscription[m[K
+[3.891s] [01m[K/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg/src/subscriber.cpp:13:99:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[3.891s]    13 |                         auto string_subscription_ = this->create_subscriber<std_msgs::msg::String [01;31m[K>[m[K("string_topic",5);
+[3.892s]       |                                                                                                   [01;31m[K^[m[K
+[3.892s] [01m[K/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg/src/subscriber.cpp:13:101:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[3.896s]    13 |                         auto string_subscription_ = this->create_subscriber<std_msgs::msg::String >([01;35m[K"string_topic"[m[K,5);
+[3.897s]       |                                                                                                     [01;35m[K^~~~~~~~~~~~~~[m[K
+[3.897s] [01m[K/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg/src/subscriber.cpp:17:52:[m[K [01;31m[Kerror: [m[K‘[01m[KIntroPublisher[m[K’ has not been declared
+[3.897s]    17 |                                         std::bind(&[01;31m[KIntroPublisher[m[K::timer_callback, this)
+[3.897s]       |                                                    [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.568s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber.cpp.o] Error 1
+[4.568s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+[4.569s] gmake[1]: *** Waiting for unfinished jobs....
+[5.056s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher.cpp.o] Error 1
+[5.056s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+[5.057s] gmake: *** [Makefile:146: all] Error 2
+[5.061s] Invoked command in '/home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg -- -j6 -l6

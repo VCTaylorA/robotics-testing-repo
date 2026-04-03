@@ -1,0 +1,2 @@
+Invoking command in '/home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg -- -j6 -l6
+Invoked command in '/home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg -- -j6 -l6

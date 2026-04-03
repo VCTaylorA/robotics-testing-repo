@@ -10,6 +10,21 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 
+# Build the publisher executable
+add_executable(talker src/publisher.cpp)
+ament_target_dependencies(talker rclcpp std_msgs)
+
+# Build subscriber executable
+add_executable(listener src/subscriber.cpp)
+ament_target_dependencies(listener rclcpp std_msgs)
+
+#install the executables to lib
+install(TARGETS
+  talker
+  listener
+  DESTINATION lib/${PROJECT_NAME}
+)
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights

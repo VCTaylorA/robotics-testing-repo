@@ -1,0 +1,33 @@
+[0.014s] Invoking command in '/home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg': /usr/bin/cmake /home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg
+[0.230s] -- The C compiler identification is GNU 11.4.0
+[0.333s] -- The CXX compiler identification is GNU 11.4.0
+[0.352s] -- Detecting C compiler ABI info
+[0.466s] -- Detecting C compiler ABI info - done
+[0.477s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.478s] -- Detecting C compile features
+[0.479s] -- Detecting C compile features - done
+[0.485s] -- Detecting CXX compiler ABI info
+[0.606s] -- Detecting CXX compiler ABI info - done
+[0.618s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.619s] -- Detecting CXX compile features
+[0.619s] -- Detecting CXX compile features - done
+[0.635s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[0.635s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.635s]   has asked CMake to find a package configuration file provided by
+[0.635s]   "ament_cmake", but CMake did not find one.
+[0.635s] 
+[0.635s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.635s]   any of the following names:
+[0.636s] 
+[0.636s]     ament_cmakeConfig.cmake
+[0.636s]     ament_cmake-config.cmake
+[0.636s] 
+[0.636s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.636s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.636s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.637s]   has been installed.
+[0.637s] 
+[0.637s] [0m
+[0.637s] -- Configuring incomplete, errors occurred!
+[0.637s] See also "/home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg/CMakeFiles/CMakeOutput.log".
+[0.642s] Invoked command in '/home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg' returned '1': /usr/bin/cmake /home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg

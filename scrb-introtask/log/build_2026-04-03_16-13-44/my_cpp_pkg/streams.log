@@ -1,0 +1,32 @@
+[0.023s] Invoking command in '/home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg -- -j6 -l6
+[0.130s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.138s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.189s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o[0m
+[0.201s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber.cpp.o[0m
+[7.748s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[8.125s] [ 75%] Built target talker
+[13.744s] [100%] [32m[1mLinking CXX executable listener[0m
+[14.412s] [100%] Built target listener
+[14.438s] Invoked command in '/home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg -- -j6 -l6
+[14.459s] Invoking command in '/home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg
+[14.473s] -- Install configuration: ""
+[14.473s] -- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/lib/my_cpp_pkg/talker
+[14.477s] -- Set runtime path of "/home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/lib/my_cpp_pkg/talker" to ""
+[14.477s] -- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/lib/my_cpp_pkg/listener
+[14.484s] -- Set runtime path of "/home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/lib/my_cpp_pkg/listener" to ""
+[14.485s] -- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[14.485s] -- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[14.485s] -- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[14.485s] -- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[14.488s] -- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[14.489s] -- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[14.489s] -- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[14.489s] -- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[14.489s] -- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[14.489s] -- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[14.489s] -- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[14.489s] -- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[14.489s] -- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[14.490s] -- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[14.490s] -- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[14.497s] Invoked command in '/home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg

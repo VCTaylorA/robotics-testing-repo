@@ -1,0 +1,35 @@
+[01m[K/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg/src/subscriber.cpp:26:36:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’
+   26 |                 void callback[34m[K([m[Kconst[01;31m[K [m[K[32m[Kstd_msgs[m[K::)
+      |                              [34m[K~[m[K     [01;31m[K^[m[K[32m[K~~~~~~~~[m[K
+      |                                    [32m[K)[m[K
+[01m[K/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg/src/subscriber.cpp:26:31:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   26 |                 void callback([01;31m[Kconst[m[K std_msgs::)
+      |                               [01;31m[K^~~~~[m[K
+      |                                    [32m[K;[m[K
+[01m[K/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg/src/subscriber.cpp:26:47:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+   26 |                 void callback(const std_msgs::[01;31m[K)[m[K
+      |                                               [01;31m[K^[m[K
+[01m[K/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg/src/subscriber.cpp:[m[K In constructor ‘[01m[KIntroSubscriber::IntroSubscriber()[m[K’:
+[01m[K/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg/src/subscriber.cpp:13:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass IntroSubscriber[m[K’ has no member named ‘[01m[Kcreate_subscriber[m[K’; did you mean ‘[01m[Kcreate_subscription[m[K’?
+   13 |                         auto string_subscription_ = this->[01;31m[Kcreate_subscriber[m[K<std_msgs::msg::String >("string_topic",5);
+      |                                                           [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                                                           [32m[Kcreate_subscription[m[K
+[01m[K/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg/src/subscriber.cpp:13:99:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   13 |                         auto string_subscription_ = this->create_subscriber<std_msgs::msg::String [01;31m[K>[m[K("string_topic",5);
+      |                                                                                                   [01;31m[K^[m[K
+[01m[K/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg/src/subscriber.cpp:13:101:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   13 |                         auto string_subscription_ = this->create_subscriber<std_msgs::msg::String >([01;35m[K"string_topic"[m[K,5);
+      |                                                                                                     [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg/src/subscriber.cpp:17:52:[m[K [01;31m[Kerror: [m[K‘[01m[KIntroPublisher[m[K’ has not been declared
+   17 |                                         std::bind(&[01;31m[KIntroPublisher[m[K::timer_callback, this)
+      |                                                    [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg/src/publisher.cpp:[m[K In constructor ‘[01m[KIntroPublisher::IntroPublisher()[m[K’:
+[01m[K/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg/src/publisher.cpp:23:43:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K:[m[K’ token
+   23 |                                         );[01;31m[K:[m[K
+      |                                           [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

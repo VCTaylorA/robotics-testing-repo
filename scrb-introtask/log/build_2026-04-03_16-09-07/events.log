@@ -1,0 +1,139 @@
+[0.000000] (-) TimerEvent: {}
+[0.001527] (-) JobUnselected: {'identifier': 'intro_py_pkg'}
+[0.001603] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.001649] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.017701] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.019573] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg', '-DCMAKE_INSTALL_PREFIX=/home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg'], 'cwd': '/home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'taylor'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/taylor'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/taylor/Documents/robotics-testing-repo/scrb-introtask'), ('TERM_PROGRAM_VERSION', '1.114.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1362'), ('SYSTEMD_EXEC_PID', '1506'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '213046'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'taylor'), ('JOURNAL_STREAM', '8:11600'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'taylor'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/taylor/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/taylor/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu22:@/tmp/.ICE-unix/1480,unix/ubuntu22:/tmp/.ICE-unix/1480'), ('INVOCATION_ID', '21c65c68de6d4505ba3bd7b7b849b014'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/taylor/.config/Code/User/workspaceStorage/e65fd975c7b63afbd65a1e1477d4cb37/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QMSRM3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fae537af68.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.051112] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.101931] (-) TimerEvent: {}
+[0.205613] (-) TimerEvent: {}
+[0.278634] (my_cpp_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.314048] (-) TimerEvent: {}
+[0.414529] (-) TimerEvent: {}
+[0.427614] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.483544] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.489939] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.502074] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.515412] (-) TimerEvent: {}
+[0.519452] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.543215] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.608720] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.610734] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.615864] (-) TimerEvent: {}
+[0.716240] (-) TimerEvent: {}
+[0.766059] (my_cpp_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.805160] (my_cpp_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.816424] (-) TimerEvent: {}
+[0.872057] (my_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.886125] (my_cpp_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.916511] (-) TimerEvent: {}
+[1.017069] (-) TimerEvent: {}
+[1.041525] (my_cpp_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.042061] (my_cpp_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.117253] (-) TimerEvent: {}
+[1.174796] (my_cpp_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.176207] (my_cpp_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.217618] (-) TimerEvent: {}
+[1.258486] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.318484] (-) TimerEvent: {}
+[1.369888] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.370206] (my_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.370325] (my_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.370925] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.372067] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.372182] (my_cpp_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.372701] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.375968] (my_cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.397994] (my_cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.404906] (my_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg\n'}
+[1.416353] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[1.417335] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[1.418376] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg', '--', '-j6', '-l6'], 'cwd': '/home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'taylor'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/taylor'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/taylor/Documents/robotics-testing-repo/scrb-introtask'), ('TERM_PROGRAM_VERSION', '1.114.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1362'), ('SYSTEMD_EXEC_PID', '1506'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '213046'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'taylor'), ('JOURNAL_STREAM', '8:11600'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'taylor'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/taylor/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/taylor/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu22:@/tmp/.ICE-unix/1480,unix/ubuntu22:/tmp/.ICE-unix/1480'), ('INVOCATION_ID', '21c65c68de6d4505ba3bd7b7b849b014'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/taylor/.config/Code/User/workspaceStorage/e65fd975c7b63afbd65a1e1477d4cb37/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QMSRM3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fae537af68.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.420603] (-) TimerEvent: {}
+[1.505588] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o\x1b[0m\n'}
+[1.506041] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[1.520963] (-) TimerEvent: {}
+[1.621904] (-) TimerEvent: {}
+[1.722564] (-) TimerEvent: {}
+[1.823407] (-) TimerEvent: {}
+[1.924685] (-) TimerEvent: {}
+[2.025287] (-) TimerEvent: {}
+[2.152976] (-) TimerEvent: {}
+[2.253365] (-) TimerEvent: {}
+[2.364477] (-) TimerEvent: {}
+[2.481674] (-) TimerEvent: {}
+[2.585227] (-) TimerEvent: {}
+[2.689257] (-) TimerEvent: {}
+[2.790890] (-) TimerEvent: {}
+[2.897531] (-) TimerEvent: {}
+[3.006316] (-) TimerEvent: {}
+[3.114510] (-) TimerEvent: {}
+[3.216082] (-) TimerEvent: {}
+[3.322131] (-) TimerEvent: {}
+[3.427364] (-) TimerEvent: {}
+[3.537536] (-) TimerEvent: {}
+[3.643763] (-) TimerEvent: {}
+[3.757898] (-) TimerEvent: {}
+[3.859140] (-) TimerEvent: {}
+[3.977081] (-) TimerEvent: {}
+[4.079817] (-) TimerEvent: {}
+[4.198417] (-) TimerEvent: {}
+[4.299254] (-) TimerEvent: {}
+[4.399848] (-) TimerEvent: {}
+[4.508077] (-) TimerEvent: {}
+[4.614710] (-) TimerEvent: {}
+[4.729070] (-) TimerEvent: {}
+[4.845971] (-) TimerEvent: {}
+[4.971067] (-) TimerEvent: {}
+[5.110113] (-) TimerEvent: {}
+[5.170965] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg/src/subscriber.cpp:26:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.175247] (my_cpp_pkg) StderrLine: {'line': b'   26 |                 void callback\x1b[34m\x1b[K(\x1b[m\x1b[Kconst\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Kstd_msgs\x1b[m\x1b[K::)\n'}
+[5.176043] (my_cpp_pkg) StderrLine: {'line': b'      |                              \x1b[34m\x1b[K~\x1b[m\x1b[K     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~~~~~\x1b[m\x1b[K\n'}
+[5.176205] (my_cpp_pkg) StderrLine: {'line': b'      |                                    \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[5.176321] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg/src/subscriber.cpp:26:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[5.176503] (my_cpp_pkg) StderrLine: {'line': b'   26 |                 void callback(\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std_msgs::)\n'}
+[5.176647] (my_cpp_pkg) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.176757] (my_cpp_pkg) StderrLine: {'line': b'      |                                    \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[5.176866] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg/src/subscriber.cpp:26:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.177035] (my_cpp_pkg) StderrLine: {'line': b'   26 |                 void callback(const std_msgs::\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[5.177154] (my_cpp_pkg) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.220025] (-) TimerEvent: {}
+[5.237030] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg/src/subscriber.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KIntroSubscriber::IntroSubscriber()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.237503] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg/src/subscriber.cpp:13:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass IntroSubscriber\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kcreate_subscriber\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcreate_subscription\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.237633] (my_cpp_pkg) StderrLine: {'line': b'   13 |                         auto string_subscription_ = this->\x1b[01;31m\x1b[Kcreate_subscriber\x1b[m\x1b[K<std_msgs::msg::String >("string_topic",5);\n'}
+[5.237722] (my_cpp_pkg) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.237799] (my_cpp_pkg) StderrLine: {'line': b'      |                                                           \x1b[32m\x1b[Kcreate_subscription\x1b[m\x1b[K\n'}
+[5.239937] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg/src/subscriber.cpp:13:99:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.240243] (my_cpp_pkg) StderrLine: {'line': b'   13 |                         auto string_subscription_ = this->create_subscriber<std_msgs::msg::String \x1b[01;31m\x1b[K>\x1b[m\x1b[K("string_topic",5);\n'}
+[5.240342] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.240450] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg/src/subscriber.cpp:13:101:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kleft operand of comma operator has no effect [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.240525] (my_cpp_pkg) StderrLine: {'line': b'   13 |                         auto string_subscription_ = this->create_subscriber<std_msgs::msg::String >(\x1b[01;35m\x1b[K"string_topic"\x1b[m\x1b[K,5);\n'}
+[5.240665] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                                                     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.240815] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg/src/subscriber.cpp:17:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KIntroPublisher\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[5.240956] (my_cpp_pkg) StderrLine: {'line': b'   17 |                                         std::bind(&\x1b[01;31m\x1b[KIntroPublisher\x1b[m\x1b[K::timer_callback, this)\n'}
+[5.241066] (my_cpp_pkg) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.246462] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg/src/publisher.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KIntroPublisher::IntroPublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.246717] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/taylor/Documents/robotics-testing-repo/scrb-introtask/my_cpp_pkg/src/publisher.cpp:23:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K:\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.246800] (my_cpp_pkg) StderrLine: {'line': b'   23 |                                         );\x1b[01;31m\x1b[K:\x1b[m\x1b[K\n'}
+[5.246917] (my_cpp_pkg) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.322211] (-) TimerEvent: {}
+[5.423041] (-) TimerEvent: {}
+[5.548403] (-) TimerEvent: {}
+[5.648870] (-) TimerEvent: {}
+[5.750125] (-) TimerEvent: {}
+[5.867290] (-) TimerEvent: {}
+[5.957409] (my_cpp_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber.cpp.o] Error 1\n'}
+[5.957845] (my_cpp_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2\n'}
+[5.957964] (my_cpp_pkg) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[5.968155] (-) TimerEvent: {}
+[6.070483] (-) TimerEvent: {}
+[6.173433] (-) TimerEvent: {}
+[6.292595] (-) TimerEvent: {}
+[6.403804] (-) TimerEvent: {}
+[6.505090] (-) TimerEvent: {}
+[6.533640] (my_cpp_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher.cpp.o] Error 1\n'}
+[6.534177] (my_cpp_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2\n'}
+[6.534834] (my_cpp_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.538526] (my_cpp_pkg) CommandEnded: {'returncode': 2}
+[6.553571] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 2}
+[6.564339] (-) EventReactorShutdown: {}

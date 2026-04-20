@@ -1,0 +1,219 @@
+[0.000000] (-) TimerEvent: {}
+[0.001426] (-) JobUnselected: {'identifier': 'intro_py_pkg'}
+[0.001503] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.001565] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.022722] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.024724] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.026246] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg', '--', '-j2', '-l2'], 'cwd': '/home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'taylor'), ('SSH_CLIENT', '10.0.2.2 48690 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/taylor'), ('OLDPWD', '/home/taylor/Documents/robotics-testing-repo'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'taylor'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'alacritty'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', ''), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('PWD', '/home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.2.2 48690 10.0.2.15 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099579] (-) TimerEvent: {}
+[0.161597] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[0.198460] (my_cpp_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[0.198818] (my_cpp_pkg) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[0.200431] (-) TimerEvent: {}
+[0.302622] (-) TimerEvent: {}
+[0.403469] (-) TimerEvent: {}
+[0.504088] (-) TimerEvent: {}
+[0.604581] (-) TimerEvent: {}
+[0.704992] (-) TimerEvent: {}
+[0.805447] (-) TimerEvent: {}
+[0.906212] (-) TimerEvent: {}
+[1.006955] (-) TimerEvent: {}
+[1.107642] (-) TimerEvent: {}
+[1.208472] (-) TimerEvent: {}
+[1.309568] (-) TimerEvent: {}
+[1.410569] (-) TimerEvent: {}
+[1.511309] (-) TimerEvent: {}
+[1.612024] (-) TimerEvent: {}
+[1.712739] (-) TimerEvent: {}
+[1.813283] (-) TimerEvent: {}
+[1.914451] (-) TimerEvent: {}
+[2.015487] (-) TimerEvent: {}
+[2.116283] (-) TimerEvent: {}
+[2.216955] (-) TimerEvent: {}
+[2.317739] (-) TimerEvent: {}
+[2.418807] (-) TimerEvent: {}
+[2.519465] (-) TimerEvent: {}
+[2.620502] (-) TimerEvent: {}
+[2.721178] (-) TimerEvent: {}
+[2.821635] (-) TimerEvent: {}
+[2.922195] (-) TimerEvent: {}
+[3.022804] (-) TimerEvent: {}
+[3.123770] (-) TimerEvent: {}
+[3.224273] (-) TimerEvent: {}
+[3.324860] (-) TimerEvent: {}
+[3.425398] (-) TimerEvent: {}
+[3.526011] (-) TimerEvent: {}
+[3.626535] (-) TimerEvent: {}
+[3.727133] (-) TimerEvent: {}
+[3.827901] (-) TimerEvent: {}
+[3.928511] (-) TimerEvent: {}
+[4.029449] (-) TimerEvent: {}
+[4.130308] (-) TimerEvent: {}
+[4.230942] (-) TimerEvent: {}
+[4.331682] (-) TimerEvent: {}
+[4.432293] (-) TimerEvent: {}
+[4.533481] (-) TimerEvent: {}
+[4.634385] (-) TimerEvent: {}
+[4.735139] (-) TimerEvent: {}
+[4.836212] (-) TimerEvent: {}
+[4.937104] (-) TimerEvent: {}
+[5.037905] (-) TimerEvent: {}
+[5.138733] (-) TimerEvent: {}
+[5.239510] (-) TimerEvent: {}
+[5.340274] (-) TimerEvent: {}
+[5.441056] (-) TimerEvent: {}
+[5.541832] (-) TimerEvent: {}
+[5.642600] (-) TimerEvent: {}
+[5.743193] (-) TimerEvent: {}
+[5.843788] (-) TimerEvent: {}
+[5.944319] (-) TimerEvent: {}
+[6.044899] (-) TimerEvent: {}
+[6.145443] (-) TimerEvent: {}
+[6.246119] (-) TimerEvent: {}
+[6.346686] (-) TimerEvent: {}
+[6.447469] (-) TimerEvent: {}
+[6.548123] (-) TimerEvent: {}
+[6.648818] (-) TimerEvent: {}
+[6.749353] (-) TimerEvent: {}
+[6.850100] (-) TimerEvent: {}
+[6.950868] (-) TimerEvent: {}
+[7.051518] (-) TimerEvent: {}
+[7.151979] (-) TimerEvent: {}
+[7.252736] (-) TimerEvent: {}
+[7.353191] (-) TimerEvent: {}
+[7.454266] (-) TimerEvent: {}
+[7.554782] (-) TimerEvent: {}
+[7.655803] (-) TimerEvent: {}
+[7.756508] (-) TimerEvent: {}
+[7.857017] (-) TimerEvent: {}
+[7.957563] (-) TimerEvent: {}
+[8.058042] (-) TimerEvent: {}
+[8.158478] (-) TimerEvent: {}
+[8.259498] (-) TimerEvent: {}
+[8.359988] (-) TimerEvent: {}
+[8.460468] (-) TimerEvent: {}
+[8.561218] (-) TimerEvent: {}
+[8.662047] (-) TimerEvent: {}
+[8.762807] (-) TimerEvent: {}
+[8.863573] (-) TimerEvent: {}
+[8.964260] (-) TimerEvent: {}
+[9.065056] (-) TimerEvent: {}
+[9.165888] (-) TimerEvent: {}
+[9.266643] (-) TimerEvent: {}
+[9.367181] (-) TimerEvent: {}
+[9.468038] (-) TimerEvent: {}
+[9.568807] (-) TimerEvent: {}
+[9.669494] (-) TimerEvent: {}
+[9.770029] (-) TimerEvent: {}
+[9.870562] (-) TimerEvent: {}
+[9.971342] (-) TimerEvent: {}
+[10.072019] (-) TimerEvent: {}
+[10.172498] (-) TimerEvent: {}
+[10.273071] (-) TimerEvent: {}
+[10.373839] (-) TimerEvent: {}
+[10.474727] (-) TimerEvent: {}
+[10.576457] (-) TimerEvent: {}
+[10.676987] (-) TimerEvent: {}
+[10.777512] (-) TimerEvent: {}
+[10.878723] (-) TimerEvent: {}
+[10.979504] (-) TimerEvent: {}
+[11.081503] (-) TimerEvent: {}
+[11.182511] (-) TimerEvent: {}
+[11.283423] (-) TimerEvent: {}
+[11.384488] (-) TimerEvent: {}
+[11.485549] (-) TimerEvent: {}
+[11.586453] (-) TimerEvent: {}
+[11.686950] (-) TimerEvent: {}
+[11.787836] (-) TimerEvent: {}
+[11.888485] (-) TimerEvent: {}
+[11.988931] (-) TimerEvent: {}
+[12.089519] (-) TimerEvent: {}
+[12.190056] (-) TimerEvent: {}
+[12.290500] (-) TimerEvent: {}
+[12.391458] (-) TimerEvent: {}
+[12.492276] (-) TimerEvent: {}
+[12.592802] (-) TimerEvent: {}
+[12.693201] (-) TimerEvent: {}
+[12.793710] (-) TimerEvent: {}
+[12.894506] (-) TimerEvent: {}
+[12.995329] (-) TimerEvent: {}
+[13.095836] (-) TimerEvent: {}
+[13.196838] (-) TimerEvent: {}
+[13.297447] (-) TimerEvent: {}
+[13.398395] (-) TimerEvent: {}
+[13.498922] (-) TimerEvent: {}
+[13.600448] (-) TimerEvent: {}
+[13.701092] (-) TimerEvent: {}
+[13.801696] (-) TimerEvent: {}
+[13.902572] (-) TimerEvent: {}
+[14.003460] (-) TimerEvent: {}
+[14.104290] (-) TimerEvent: {}
+[14.205465] (-) TimerEvent: {}
+[14.306664] (-) TimerEvent: {}
+[14.407857] (-) TimerEvent: {}
+[14.508916] (-) TimerEvent: {}
+[14.609897] (-) TimerEvent: {}
+[14.710876] (-) TimerEvent: {}
+[14.812145] (-) TimerEvent: {}
+[14.913461] (-) TimerEvent: {}
+[15.014084] (-) TimerEvent: {}
+[15.114908] (-) TimerEvent: {}
+[15.215662] (-) TimerEvent: {}
+[15.316353] (-) TimerEvent: {}
+[15.417266] (-) TimerEvent: {}
+[15.518448] (-) TimerEvent: {}
+[15.619039] (-) TimerEvent: {}
+[15.719854] (-) TimerEvent: {}
+[15.820382] (-) TimerEvent: {}
+[15.921440] (-) TimerEvent: {}
+[16.021948] (-) TimerEvent: {}
+[16.122533] (-) TimerEvent: {}
+[16.223105] (-) TimerEvent: {}
+[16.324379] (-) TimerEvent: {}
+[16.424859] (-) TimerEvent: {}
+[16.525415] (-) TimerEvent: {}
+[16.626152] (-) TimerEvent: {}
+[16.727638] (-) TimerEvent: {}
+[16.828270] (-) TimerEvent: {}
+[16.928795] (-) TimerEvent: {}
+[17.029426] (-) TimerEvent: {}
+[17.129944] (-) TimerEvent: {}
+[17.230454] (-) TimerEvent: {}
+[17.330949] (-) TimerEvent: {}
+[17.432036] (-) TimerEvent: {}
+[17.498585] (my_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[17.532196] (-) TimerEvent: {}
+[17.632733] (-) TimerEvent: {}
+[17.733214] (-) TimerEvent: {}
+[17.833704] (-) TimerEvent: {}
+[17.934230] (-) TimerEvent: {}
+[18.034806] (-) TimerEvent: {}
+[18.135304] (-) TimerEvent: {}
+[18.147953] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[18.173165] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[18.174516] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'install'}
+[18.195214] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg'], 'cwd': '/home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'taylor'), ('SSH_CLIENT', '10.0.2.2 48690 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/taylor'), ('OLDPWD', '/home/taylor/Documents/robotics-testing-repo'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'taylor'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'alacritty'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', ''), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('PWD', '/home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.2.2 48690 10.0.2.15 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[18.221043] (my_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.222853] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/lib/my_cpp_pkg/talker\n'}
+[18.226421] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/lib/my_cpp_pkg/talker" to ""\n'}
+[18.228719] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/lib/my_cpp_pkg/listener\n'}
+[18.235389] (-) TimerEvent: {}
+[18.238935] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/lib/my_cpp_pkg/listener" to ""\n'}
+[18.239417] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg\n'}
+[18.239743] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg\n'}
+[18.240021] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[18.240978] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[18.241843] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh\n'}
+[18.242713] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv\n'}
+[18.243599] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash\n'}
+[18.243984] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh\n'}
+[18.244207] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh\n'}
+[18.244437] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv\n'}
+[18.244778] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv\n'}
+[18.245407] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg\n'}
+[18.245722] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake\n'}
+[18.245891] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake\n'}
+[18.246144] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg/share/my_cpp_pkg/package.xml\n'}
+[18.250496] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[18.289628] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[18.291321] (-) EventReactorShutdown: {}

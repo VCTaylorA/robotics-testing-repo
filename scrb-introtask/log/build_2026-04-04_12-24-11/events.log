@@ -1,0 +1,44 @@
+[0.000000] (-) TimerEvent: {}
+[0.003486] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.003669] (intro_py_pkg) JobQueued: {'identifier': 'intro_py_pkg', 'dependencies': OrderedDict()}
+[0.003738] (intro_py_pkg) JobStarted: {'identifier': 'intro_py_pkg'}
+[0.175693] (-) TimerEvent: {}
+[0.330625] (-) TimerEvent: {}
+[0.531642] (-) TimerEvent: {}
+[0.632461] (-) TimerEvent: {}
+[0.734455] (-) TimerEvent: {}
+[0.836924] (-) TimerEvent: {}
+[1.092415] (-) TimerEvent: {}
+[1.195954] (-) TimerEvent: {}
+[1.296701] (-) TimerEvent: {}
+[1.397237] (-) TimerEvent: {}
+[1.431716] (intro_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/intro_py_pkg', 'build', '--build-base', '/home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/intro_py_pkg/build', 'install', '--record', '/home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/intro_py_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/taylor/Documents/robotics-testing-repo/scrb-introtask/intro_py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'taylor', 'SSH_CLIENT': '10.0.2.2 48690 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/taylor', 'OLDPWD': '/home/taylor/Documents/robotics-testing-repo', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_US.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/taylor/Documents/robotics-testing-repo/scrb-introtask/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'taylor', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'alacritty', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': '', 'AMENT_PREFIX_PATH': '/home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg:/home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/intro_py_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'PWD': '/home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/intro_py_pkg', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.0.2.2 48690 10.0.2.15 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/intro_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/intro_py_pkg/lib/python3.10/site-packages:/home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/intro_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/my_cpp_pkg'}, 'shell': False}
+[1.497400] (-) TimerEvent: {}
+[1.669575] (-) TimerEvent: {}
+[1.770472] (-) TimerEvent: {}
+[1.871043] (-) TimerEvent: {}
+[1.971693] (-) TimerEvent: {}
+[1.978756] (intro_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.980522] (intro_py_pkg) StdoutLine: {'line': b'writing ../build/intro_py_pkg/intro_py_pkg.egg-info/PKG-INFO\n'}
+[1.991591] (intro_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../build/intro_py_pkg/intro_py_pkg.egg-info/dependency_links.txt\n'}
+[1.992243] (intro_py_pkg) StdoutLine: {'line': b'writing entry points to ../build/intro_py_pkg/intro_py_pkg.egg-info/entry_points.txt\n'}
+[1.992826] (intro_py_pkg) StdoutLine: {'line': b'writing requirements to ../build/intro_py_pkg/intro_py_pkg.egg-info/requires.txt\n'}
+[1.993182] (intro_py_pkg) StdoutLine: {'line': b'writing top-level names to ../build/intro_py_pkg/intro_py_pkg.egg-info/top_level.txt\n'}
+[1.996979] (intro_py_pkg) StdoutLine: {'line': b"reading manifest file '../build/intro_py_pkg/intro_py_pkg.egg-info/SOURCES.txt'\n"}
+[2.002181] (intro_py_pkg) StdoutLine: {'line': b"writing manifest file '../build/intro_py_pkg/intro_py_pkg.egg-info/SOURCES.txt'\n"}
+[2.002436] (intro_py_pkg) StdoutLine: {'line': b'running build\n'}
+[2.002586] (intro_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[2.007521] (intro_py_pkg) StdoutLine: {'line': b'running install\n'}
+[2.007748] (intro_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[2.009850] (intro_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[2.010279] (intro_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.013794] (intro_py_pkg) StdoutLine: {'line': b"removing '/home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/intro_py_pkg/lib/python3.10/site-packages/intro_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.014797] (intro_py_pkg) StdoutLine: {'line': b'Copying ../build/intro_py_pkg/intro_py_pkg.egg-info to /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/intro_py_pkg/lib/python3.10/site-packages/intro_py_pkg-0.0.0-py3.10.egg-info\n'}
+[2.017731] (intro_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[2.060662] (intro_py_pkg) StdoutLine: {'line': b'Installing listener script to /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/intro_py_pkg/lib/intro_py_pkg\n'}
+[2.061643] (intro_py_pkg) StdoutLine: {'line': b'Installing talker script to /home/taylor/Documents/robotics-testing-repo/scrb-introtask/install/intro_py_pkg/lib/intro_py_pkg\n'}
+[2.062589] (intro_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/intro_py_pkg/install.log'\n"}
+[2.071956] (-) TimerEvent: {}
+[2.107025] (intro_py_pkg) CommandEnded: {'returncode': 0}
+[2.132253] (intro_py_pkg) JobEnded: {'identifier': 'intro_py_pkg', 'rc': 0}
+[2.133712] (-) EventReactorShutdown: {}

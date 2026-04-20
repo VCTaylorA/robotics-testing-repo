@@ -1,0 +1,169 @@
+[0.000000] (-) TimerEvent: {}
+[0.000402] (-) JobUnselected: {'identifier': 'intro_py_pkg'}
+[0.000467] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.001629] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.030587] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.033069] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.034899] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg', '--', '-j2', '-l2'], 'cwd': '/home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'taylor'), ('SSH_CLIENT', '10.0.2.2 48690 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/taylor'), ('OLDPWD', '/home/taylor/Documents/robotics-testing-repo'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'taylor'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'alacritty'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', ''), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('PWD', '/home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.2.2 48690 10.0.2.15 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100455] (-) TimerEvent: {}
+[0.198358] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.200541] (-) TimerEvent: {}
+[0.301132] (-) TimerEvent: {}
+[0.402273] (-) TimerEvent: {}
+[0.513556] (-) TimerEvent: {}
+[0.519445] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.605844] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.613289] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.613633] (-) TimerEvent: {}
+[0.632262] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.660183] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.696813] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.719391] (-) TimerEvent: {}
+[0.799992] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.806106] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.824514] (-) TimerEvent: {}
+[0.935690] (-) TimerEvent: {}
+[1.036509] (-) TimerEvent: {}
+[1.043348] (my_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.182326] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.183945] (-) TimerEvent: {}
+[1.284719] (-) TimerEvent: {}
+[1.364963] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.365790] (my_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.366070] (my_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.367902] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.370971] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.371354] (my_cpp_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.372301] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.376764] (my_cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.386913] (-) TimerEvent: {}
+[1.425298] (my_cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.437433] (my_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/taylor/Documents/robotics-testing-repo/scrb-introtask/build/my_cpp_pkg\n'}
+[1.487097] (-) TimerEvent: {}
+[1.500424] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[1.500804] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[1.584324] (my_cpp_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[1.585050] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o\x1b[0m\n'}
+[1.589277] (-) TimerEvent: {}
+[1.689723] (-) TimerEvent: {}
+[1.790895] (-) TimerEvent: {}
+[1.893885] (-) TimerEvent: {}
+[1.996289] (-) TimerEvent: {}
+[2.097307] (-) TimerEvent: {}
+[2.199738] (-) TimerEvent: {}
+[2.300930] (-) TimerEvent: {}
+[2.402510] (-) TimerEvent: {}
+[2.507532] (-) TimerEvent: {}
+[2.608714] (-) TimerEvent: {}
+[2.710645] (-) TimerEvent: {}
+[2.811890] (-) TimerEvent: {}
+[2.915156] (-) TimerEvent: {}
+[3.016406] (-) TimerEvent: {}
+[3.119317] (-) TimerEvent: {}
+[3.220585] (-) TimerEvent: {}
+[3.321819] (-) TimerEvent: {}
+[3.424953] (-) TimerEvent: {}
+[3.526161] (-) TimerEvent: {}
+[3.629418] (-) TimerEvent: {}
+[3.730639] (-) TimerEvent: {}
+[3.831585] (-) TimerEvent: {}
+[3.933311] (-) TimerEvent: {}
+[4.034229] (-) TimerEvent: {}
+[4.137093] (-) TimerEvent: {}
+[4.237627] (-) TimerEvent: {}
+[4.338135] (-) TimerEvent: {}
+[4.439333] (-) TimerEvent: {}
+[4.543333] (-) TimerEvent: {}
+[4.643847] (-) TimerEvent: {}
+[4.744327] (-) TimerEvent: {}
+[4.844890] (-) TimerEvent: {}
+[4.947310] (-) TimerEvent: {}
+[5.049288] (-) TimerEvent: {}
+[5.151554] (-) TimerEvent: {}
+[5.258896] (-) TimerEvent: {}
+[5.359427] (-) TimerEvent: {}
+[5.460937] (-) TimerEvent: {}
+[5.561531] (-) TimerEvent: {}
+[5.662027] (-) TimerEvent: {}
+[5.763352] (-) TimerEvent: {}
+[5.865326] (-) TimerEvent: {}
+[5.965918] (-) TimerEvent: {}
+[6.066496] (-) TimerEvent: {}
+[6.170560] (-) TimerEvent: {}
+[6.271121] (-) TimerEvent: {}
+[6.373303] (-) TimerEvent: {}
+[6.475549] (-) TimerEvent: {}
+[6.576112] (-) TimerEvent: {}
+[6.677547] (-) TimerEvent: {}
+[6.778110] (-) TimerEvent: {}
+[6.879501] (-) TimerEvent: {}
+[6.980089] (-) TimerEvent: {}
+[7.081792] (-) TimerEvent: {}
+[7.183598] (-) TimerEvent: {}
+[7.284152] (-) TimerEvent: {}
+[7.385285] (-) TimerEvent: {}
+[7.487336] (-) TimerEvent: {}
+[7.587855] (-) TimerEvent: {}
+[7.688325] (-) TimerEvent: {}
+[7.790306] (-) TimerEvent: {}
+[7.891505] (-) TimerEvent: {}
+[7.993788] (-) TimerEvent: {}
+[8.095526] (-) TimerEvent: {}
+[8.196304] (-) TimerEvent: {}
+[8.298358] (-) TimerEvent: {}
+[8.398858] (-) TimerEvent: {}
+[8.499355] (-) TimerEvent: {}
+[8.600702] (-) TimerEvent: {}
+[8.702861] (-) TimerEvent: {}
+[8.805355] (-) TimerEvent: {}
+[8.909333] (-) TimerEvent: {}
+[9.009861] (-) TimerEvent: {}
+[9.111781] (-) TimerEvent: {}
+[9.213363] (-) TimerEvent: {}
+[9.314527] (-) TimerEvent: {}
+[9.416837] (-) TimerEvent: {}
+[9.520388] (-) TimerEvent: {}
+[9.621307] (-) TimerEvent: {}
+[9.721804] (-) TimerEvent: {}
+[9.822592] (-) TimerEvent: {}
+[9.923192] (-) TimerEvent: {}
+[10.025873] (-) TimerEvent: {}
+[10.127005] (-) TimerEvent: {}
+[10.229860] (-) TimerEvent: {}
+[10.331095] (-) TimerEvent: {}
+[10.434326] (-) TimerEvent: {}
+[10.535367] (-) TimerEvent: {}
+[10.636500] (-) TimerEvent: {}
+[10.738827] (-) TimerEvent: {}
+[10.839868] (-) TimerEvent: {}
+[10.942641] (-) TimerEvent: {}
+[11.043194] (-) TimerEvent: {}
+[11.144206] (-) TimerEvent: {}
+[11.245920] (-) TimerEvent: {}
+[11.347113] (-) TimerEvent: {}
+[11.449954] (-) TimerEvent: {}
+[11.551349] (-) TimerEvent: {}
+[11.653346] (-) TimerEvent: {}
+[11.754695] (-) TimerEvent: {}
+[11.855519] (-) TimerEvent: {}
+[11.958747] (-) TimerEvent: {}
+[11.963332] (my_cpp_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[12.060423] (-) TimerEvent: {}
+[12.161005] (-) TimerEvent: {}
+[12.263299] (-) TimerEvent: {}
+[12.363873] (-) TimerEvent: {}
+[12.453856] (my_cpp_pkg) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[12.464005] (-) TimerEvent: {}
+[12.582026] (-) TimerEvent: {}
+[14.287358] (-) TimerEvent: {}
+[14.581423] (-) TimerEvent: {}
+[14.705904] (-) TimerEvent: {}
+[15.480182] (-) TimerEvent: {}
+[16.061537] (my_cpp_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber.cpp.o] Interrupt\n'}
+[16.062313] (-) TimerEvent: {}
+[16.064876] (my_cpp_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Interrupt\n'}
+[16.065497] (my_cpp_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[16.180487] (-) TimerEvent: {}
+[16.195879] (my_cpp_pkg) CommandEnded: {'returncode': -2}
+[16.257219] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 'SIGINT'}
+[16.267984] (-) EventReactorShutdown: {}

@@ -18,3 +18,8 @@ you you can set your environment to log errors/bugs by doing
 `export GST_DEBUG="*:6"` to output everything
 or
 `GST_DEBUG=*:WARN`
+
+## Tutorials
+### basic-tutorial-1.c
+what each line does:
+

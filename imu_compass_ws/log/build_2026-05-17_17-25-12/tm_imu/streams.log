@@ -1,0 +1,8 @@
+[0.038s] Invoking command in '/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/build/tm_imu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/build/tm_imu -- -j12 -l12
+[0.131s] [31mCMake Error at CMakeLists.txt:15:
+[0.131s]   Parse error.  Expected a newline, got identifier with text "ImuSu".
+[0.132s] 
+[0.132s] [0m
+[0.132s] -- Configuring incomplete, errors occurred!
+[0.146s] gmake: *** [Makefile:375: cmake_check_build_system] Error 1
+[0.164s] Invoked command in '/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/build/tm_imu' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/build/tm_imu -- -j12 -l12

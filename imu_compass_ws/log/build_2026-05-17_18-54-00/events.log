@@ -1,0 +1,383 @@
+[0.000000] (-) TimerEvent: {}
+[0.002048] (tm_imu) JobQueued: {'identifier': 'tm_imu', 'dependencies': OrderedDict()}
+[0.004634] (tm_imu) JobStarted: {'identifier': 'tm_imu'}
+[0.044735] (tm_imu) JobProgress: {'identifier': 'tm_imu', 'progress': 'cmake'}
+[0.050543] (tm_imu) JobProgress: {'identifier': 'tm_imu', 'progress': 'build'}
+[0.051115] (tm_imu) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/build/tm_imu', '--', '-j12', '-l12'], 'cwd': '/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/build/tm_imu', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_CA:en', 'USER': 'taylor', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/taylor', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.120.0', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2518', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2960', 'BUNDLED_DEBUGPY_PATH': '/home/taylor/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4015', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'taylor', 'JOURNAL_STREAM': '8:19987', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'taylor', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'WINDOWPATH': '2', 'PATH': '/home/taylor/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/taylor/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/taylor/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/jammyros:@/tmp/.ICE-unix/2925,unix/jammyros:/tmp/.ICE-unix/2925', 'INVOCATION_ID': 'e30c89042b6c479e812cdd4d3a02eec8', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/taylor/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-5bdf37d5936db98e.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/taylor/.config/Code/User/workspaceStorage/5dd0e2db34c618cfa9a448b4fb84dd83/ms-python.python/pythonrc.py', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-618fd34b2f.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/build/tm_imu', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.096244] (-) TimerEvent: {}
+[0.198333] (-) TimerEvent: {}
+[0.300255] (-) TimerEvent: {}
+[0.319239] (tm_imu) StdoutLine: {'line': b'[ 75%] Built target transducer_m_imu\n'}
+[0.385285] (tm_imu) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/imu_subscriber.dir/src/imu_subscriber.cpp.o\x1b[0m\n'}
+[0.400859] (-) TimerEvent: {}
+[0.502528] (-) TimerEvent: {}
+[0.604371] (-) TimerEvent: {}
+[0.705439] (-) TimerEvent: {}
+[0.806496] (-) TimerEvent: {}
+[0.908566] (-) TimerEvent: {}
+[1.009576] (-) TimerEvent: {}
+[1.111293] (-) TimerEvent: {}
+[1.212877] (-) TimerEvent: {}
+[1.314212] (-) TimerEvent: {}
+[1.417440] (-) TimerEvent: {}
+[1.519147] (-) TimerEvent: {}
+[1.620913] (-) TimerEvent: {}
+[1.724154] (-) TimerEvent: {}
+[1.825056] (-) TimerEvent: {}
+[1.927520] (-) TimerEvent: {}
+[2.028504] (-) TimerEvent: {}
+[2.129746] (-) TimerEvent: {}
+[2.230658] (-) TimerEvent: {}
+[2.332120] (-) TimerEvent: {}
+[2.433082] (-) TimerEvent: {}
+[2.534219] (-) TimerEvent: {}
+[2.635327] (-) TimerEvent: {}
+[2.736560] (-) TimerEvent: {}
+[2.839521] (-) TimerEvent: {}
+[2.943146] (-) TimerEvent: {}
+[3.047653] (-) TimerEvent: {}
+[3.150332] (-) TimerEvent: {}
+[3.252951] (-) TimerEvent: {}
+[3.354410] (-) TimerEvent: {}
+[3.457049] (-) TimerEvent: {}
+[3.559589] (-) TimerEvent: {}
+[3.661647] (-) TimerEvent: {}
+[3.762867] (-) TimerEvent: {}
+[3.864865] (-) TimerEvent: {}
+[3.967284] (-) TimerEvent: {}
+[4.068632] (-) TimerEvent: {}
+[4.170368] (-) TimerEvent: {}
+[4.271343] (-) TimerEvent: {}
+[4.372444] (-) TimerEvent: {}
+[4.473644] (-) TimerEvent: {}
+[4.574582] (-) TimerEvent: {}
+[4.676319] (-) TimerEvent: {}
+[4.777757] (-) TimerEvent: {}
+[4.879652] (-) TimerEvent: {}
+[4.981145] (-) TimerEvent: {}
+[5.086540] (-) TimerEvent: {}
+[5.191262] (-) TimerEvent: {}
+[5.296359] (-) TimerEvent: {}
+[5.398664] (-) TimerEvent: {}
+[5.501368] (-) TimerEvent: {}
+[5.603946] (-) TimerEvent: {}
+[5.708810] (-) TimerEvent: {}
+[5.811004] (-) TimerEvent: {}
+[5.912661] (-) TimerEvent: {}
+[6.018570] (-) TimerEvent: {}
+[6.120661] (-) TimerEvent: {}
+[6.222586] (-) TimerEvent: {}
+[6.323921] (-) TimerEvent: {}
+[6.425126] (-) TimerEvent: {}
+[6.526424] (-) TimerEvent: {}
+[6.627927] (-) TimerEvent: {}
+[6.731881] (-) TimerEvent: {}
+[6.834128] (-) TimerEvent: {}
+[6.935397] (-) TimerEvent: {}
+[7.037109] (-) TimerEvent: {}
+[7.138527] (-) TimerEvent: {}
+[7.241003] (-) TimerEvent: {}
+[7.342940] (-) TimerEvent: {}
+[7.443925] (-) TimerEvent: {}
+[7.545041] (-) TimerEvent: {}
+[7.646636] (-) TimerEvent: {}
+[7.749259] (-) TimerEvent: {}
+[7.850210] (-) TimerEvent: {}
+[7.951988] (-) TimerEvent: {}
+[8.053159] (-) TimerEvent: {}
+[8.154224] (-) TimerEvent: {}
+[8.255589] (-) TimerEvent: {}
+[8.356655] (-) TimerEvent: {}
+[8.457862] (-) TimerEvent: {}
+[8.559179] (-) TimerEvent: {}
+[8.661077] (-) TimerEvent: {}
+[8.763092] (-) TimerEvent: {}
+[8.864233] (-) TimerEvent: {}
+[8.965019] (-) TimerEvent: {}
+[9.065744] (-) TimerEvent: {}
+[9.166539] (-) TimerEvent: {}
+[9.267442] (-) TimerEvent: {}
+[9.368396] (-) TimerEvent: {}
+[9.469753] (-) TimerEvent: {}
+[9.571188] (-) TimerEvent: {}
+[9.673152] (-) TimerEvent: {}
+[9.737259] (tm_imu) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[9.739912] (tm_imu) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K,\n'}
+[9.740548] (tm_imu) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K,\n'}
+[9.741321] (tm_imu) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/src/transducer-imu/src/imu_subscriber.cpp:1\x1b[m\x1b[K:\n'}
+[9.741539] (tm_imu) StderrLine: {'line': b'\x1b[01m\x1b[K/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/src/transducer-imu/src/imu_subscriber.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ImuSubscriber::\x1b[01;32m\x1b[Kcallback\x1b[m\x1b[K(sensor_msgs::msg::MagneticField_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.741858] (tm_imu) StderrLine: {'line': b'\x1b[01m\x1b[K/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/src/transducer-imu/src/imu_subscriber.cpp:32:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktoo many arguments for format [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args\x07-Wformat-extra-args\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.742218] (tm_imu) StderrLine: {'line': b'   32 |                         RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"\xe2\x86\x91 N "\x1b[m\x1b[K, yaw);\n'}
+[9.742471] (tm_imu) StderrLine: {'line': b'      |                                                         \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[9.742909] (tm_imu) StderrLine: {'line': b'\x1b[01m\x1b[K/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/src/transducer-imu/src/imu_subscriber.cpp:34:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktoo many arguments for format [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args\x07-Wformat-extra-args\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.743239] (tm_imu) StderrLine: {'line': b'   34 |                         RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"\xe2\x86\x97 NE"\x1b[m\x1b[K, yaw);\n'}
+[9.743555] (tm_imu) StderrLine: {'line': b'      |                                                         \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[9.744216] (tm_imu) StderrLine: {'line': b'\x1b[01m\x1b[K/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/src/transducer-imu/src/imu_subscriber.cpp:36:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktoo many arguments for format [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args\x07-Wformat-extra-args\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.744462] (tm_imu) StderrLine: {'line': b'   36 |                         RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"\xe2\x86\x92 E "\x1b[m\x1b[K, yaw);\n'}
+[9.745158] (tm_imu) StderrLine: {'line': b'      |                                                         \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[9.745319] (tm_imu) StderrLine: {'line': b'\x1b[01m\x1b[K/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/src/transducer-imu/src/imu_subscriber.cpp:38:65:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktoo many arguments for format [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args\x07-Wformat-extra-args\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.745562] (tm_imu) StderrLine: {'line': b'   38 |                                 RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"\xe2\x86\x98 SE"\x1b[m\x1b[K, yaw);\n'}
+[9.745706] (tm_imu) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[9.745877] (tm_imu) StderrLine: {'line': b'\x1b[01m\x1b[K/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/src/transducer-imu/src/imu_subscriber.cpp:40:65:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktoo many arguments for format [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args\x07-Wformat-extra-args\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.746141] (tm_imu) StderrLine: {'line': b'   40 |                                 RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"\xe2\x86\x93 S "\x1b[m\x1b[K, yaw);\n'}
+[9.746299] (tm_imu) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[9.746532] (tm_imu) StderrLine: {'line': b'\x1b[01m\x1b[K/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/src/transducer-imu/src/imu_subscriber.cpp:42:65:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktoo many arguments for format [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args\x07-Wformat-extra-args\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.746889] (tm_imu) StderrLine: {'line': b'   42 |                                 RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"\xe2\x86\x99 SW"\x1b[m\x1b[K, yaw);\n'}
+[9.747038] (tm_imu) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[9.747194] (tm_imu) StderrLine: {'line': b'\x1b[01m\x1b[K/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/src/transducer-imu/src/imu_subscriber.cpp:44:65:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktoo many arguments for format [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args\x07-Wformat-extra-args\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.747506] (tm_imu) StderrLine: {'line': b'   44 |                                 RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"\xe2\x86\x90 W "\x1b[m\x1b[K, yaw);\n'}
+[9.747878] (tm_imu) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[9.748046] (tm_imu) StderrLine: {'line': b'\x1b[01m\x1b[K/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/src/transducer-imu/src/imu_subscriber.cpp:46:65:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktoo many arguments for format [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args\x07-Wformat-extra-args\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.748295] (tm_imu) StderrLine: {'line': b'   46 |                                 RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"\xe2\x86\x96 NW"\x1b[m\x1b[K, yaw);\n'}
+[9.748431] (tm_imu) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[9.773560] (-) TimerEvent: {}
+[9.874581] (-) TimerEvent: {}
+[9.975911] (-) TimerEvent: {}
+[10.076993] (-) TimerEvent: {}
+[10.178334] (-) TimerEvent: {}
+[10.279301] (-) TimerEvent: {}
+[10.380536] (-) TimerEvent: {}
+[10.482998] (-) TimerEvent: {}
+[10.584987] (-) TimerEvent: {}
+[10.685593] (-) TimerEvent: {}
+[10.786982] (-) TimerEvent: {}
+[10.888038] (-) TimerEvent: {}
+[10.989142] (-) TimerEvent: {}
+[11.089909] (-) TimerEvent: {}
+[11.191176] (-) TimerEvent: {}
+[11.292932] (-) TimerEvent: {}
+[11.395777] (-) TimerEvent: {}
+[11.497466] (-) TimerEvent: {}
+[11.600895] (-) TimerEvent: {}
+[11.703064] (-) TimerEvent: {}
+[11.804805] (-) TimerEvent: {}
+[11.907862] (-) TimerEvent: {}
+[12.008976] (-) TimerEvent: {}
+[12.110700] (-) TimerEvent: {}
+[12.211945] (-) TimerEvent: {}
+[12.313417] (-) TimerEvent: {}
+[12.414521] (-) TimerEvent: {}
+[12.516020] (-) TimerEvent: {}
+[12.616891] (-) TimerEvent: {}
+[12.718074] (-) TimerEvent: {}
+[12.819573] (-) TimerEvent: {}
+[12.921054] (-) TimerEvent: {}
+[13.022849] (-) TimerEvent: {}
+[13.123810] (-) TimerEvent: {}
+[13.226053] (-) TimerEvent: {}
+[13.327885] (-) TimerEvent: {}
+[13.429854] (-) TimerEvent: {}
+[13.531292] (-) TimerEvent: {}
+[13.632793] (-) TimerEvent: {}
+[13.733501] (-) TimerEvent: {}
+[13.834584] (-) TimerEvent: {}
+[13.936031] (-) TimerEvent: {}
+[14.038233] (-) TimerEvent: {}
+[14.141097] (-) TimerEvent: {}
+[14.242263] (-) TimerEvent: {}
+[14.343816] (-) TimerEvent: {}
+[14.445277] (-) TimerEvent: {}
+[14.546520] (-) TimerEvent: {}
+[14.647476] (-) TimerEvent: {}
+[14.748389] (-) TimerEvent: {}
+[14.849424] (-) TimerEvent: {}
+[14.951254] (-) TimerEvent: {}
+[15.052433] (-) TimerEvent: {}
+[15.157800] (-) TimerEvent: {}
+[15.258906] (-) TimerEvent: {}
+[15.360199] (-) TimerEvent: {}
+[15.461632] (-) TimerEvent: {}
+[15.564755] (-) TimerEvent: {}
+[15.666925] (-) TimerEvent: {}
+[15.768520] (-) TimerEvent: {}
+[15.871328] (-) TimerEvent: {}
+[15.973053] (-) TimerEvent: {}
+[16.075780] (-) TimerEvent: {}
+[16.177428] (-) TimerEvent: {}
+[16.278942] (-) TimerEvent: {}
+[16.380228] (-) TimerEvent: {}
+[16.483152] (-) TimerEvent: {}
+[16.584400] (-) TimerEvent: {}
+[16.685606] (-) TimerEvent: {}
+[16.787057] (-) TimerEvent: {}
+[16.888997] (-) TimerEvent: {}
+[16.990995] (-) TimerEvent: {}
+[17.092857] (-) TimerEvent: {}
+[17.195137] (-) TimerEvent: {}
+[17.296404] (-) TimerEvent: {}
+[17.397570] (-) TimerEvent: {}
+[17.501492] (-) TimerEvent: {}
+[17.604555] (-) TimerEvent: {}
+[17.706125] (-) TimerEvent: {}
+[17.809931] (-) TimerEvent: {}
+[17.911226] (-) TimerEvent: {}
+[18.013032] (-) TimerEvent: {}
+[18.114486] (-) TimerEvent: {}
+[18.216128] (-) TimerEvent: {}
+[18.317718] (-) TimerEvent: {}
+[18.419059] (-) TimerEvent: {}
+[18.521855] (-) TimerEvent: {}
+[18.622856] (-) TimerEvent: {}
+[18.725225] (-) TimerEvent: {}
+[18.827871] (-) TimerEvent: {}
+[18.929176] (-) TimerEvent: {}
+[19.030521] (-) TimerEvent: {}
+[19.132089] (-) TimerEvent: {}
+[19.234509] (-) TimerEvent: {}
+[19.336219] (-) TimerEvent: {}
+[19.438022] (-) TimerEvent: {}
+[19.539558] (-) TimerEvent: {}
+[19.642406] (-) TimerEvent: {}
+[19.744181] (-) TimerEvent: {}
+[19.845285] (-) TimerEvent: {}
+[19.951732] (-) TimerEvent: {}
+[20.052582] (-) TimerEvent: {}
+[20.153417] (-) TimerEvent: {}
+[20.254801] (-) TimerEvent: {}
+[20.356539] (-) TimerEvent: {}
+[20.458073] (-) TimerEvent: {}
+[20.560146] (-) TimerEvent: {}
+[20.664587] (-) TimerEvent: {}
+[20.766046] (-) TimerEvent: {}
+[20.867403] (-) TimerEvent: {}
+[20.969429] (-) TimerEvent: {}
+[21.070941] (-) TimerEvent: {}
+[21.172008] (-) TimerEvent: {}
+[21.274920] (-) TimerEvent: {}
+[21.378975] (-) TimerEvent: {}
+[21.480423] (-) TimerEvent: {}
+[21.581985] (-) TimerEvent: {}
+[21.682958] (-) TimerEvent: {}
+[21.784002] (-) TimerEvent: {}
+[21.884808] (-) TimerEvent: {}
+[21.986067] (-) TimerEvent: {}
+[22.087345] (-) TimerEvent: {}
+[22.188604] (-) TimerEvent: {}
+[22.290218] (-) TimerEvent: {}
+[22.392104] (-) TimerEvent: {}
+[22.495596] (-) TimerEvent: {}
+[22.600179] (-) TimerEvent: {}
+[22.702108] (-) TimerEvent: {}
+[22.808689] (-) TimerEvent: {}
+[22.909642] (-) TimerEvent: {}
+[23.013396] (-) TimerEvent: {}
+[23.114998] (-) TimerEvent: {}
+[23.216169] (-) TimerEvent: {}
+[23.323030] (-) TimerEvent: {}
+[23.426543] (-) TimerEvent: {}
+[23.527503] (-) TimerEvent: {}
+[23.630131] (-) TimerEvent: {}
+[23.731983] (-) TimerEvent: {}
+[23.833952] (-) TimerEvent: {}
+[23.936269] (-) TimerEvent: {}
+[24.037491] (-) TimerEvent: {}
+[24.140495] (-) TimerEvent: {}
+[24.244323] (-) TimerEvent: {}
+[24.347146] (-) TimerEvent: {}
+[24.450033] (-) TimerEvent: {}
+[24.553054] (-) TimerEvent: {}
+[24.655038] (-) TimerEvent: {}
+[24.756504] (-) TimerEvent: {}
+[24.860555] (-) TimerEvent: {}
+[24.964099] (-) TimerEvent: {}
+[25.069846] (-) TimerEvent: {}
+[25.172261] (-) TimerEvent: {}
+[25.274968] (-) TimerEvent: {}
+[25.376890] (-) TimerEvent: {}
+[25.479038] (-) TimerEvent: {}
+[25.581521] (-) TimerEvent: {}
+[25.684266] (-) TimerEvent: {}
+[25.785514] (-) TimerEvent: {}
+[25.886785] (-) TimerEvent: {}
+[25.988281] (-) TimerEvent: {}
+[26.090123] (-) TimerEvent: {}
+[26.193203] (-) TimerEvent: {}
+[26.296497] (-) TimerEvent: {}
+[26.400400] (-) TimerEvent: {}
+[26.504013] (-) TimerEvent: {}
+[26.607116] (-) TimerEvent: {}
+[26.711017] (-) TimerEvent: {}
+[26.817116] (-) TimerEvent: {}
+[26.918945] (-) TimerEvent: {}
+[27.020057] (-) TimerEvent: {}
+[27.120853] (-) TimerEvent: {}
+[27.223980] (-) TimerEvent: {}
+[27.324832] (-) TimerEvent: {}
+[27.425554] (-) TimerEvent: {}
+[27.527163] (-) TimerEvent: {}
+[27.627870] (-) TimerEvent: {}
+[27.729474] (-) TimerEvent: {}
+[27.831599] (-) TimerEvent: {}
+[27.934119] (-) TimerEvent: {}
+[28.038442] (-) TimerEvent: {}
+[28.139590] (-) TimerEvent: {}
+[28.243385] (-) TimerEvent: {}
+[28.344807] (-) TimerEvent: {}
+[28.445427] (-) TimerEvent: {}
+[28.546617] (-) TimerEvent: {}
+[28.647982] (-) TimerEvent: {}
+[28.749982] (-) TimerEvent: {}
+[28.856094] (-) TimerEvent: {}
+[28.958155] (-) TimerEvent: {}
+[29.060429] (-) TimerEvent: {}
+[29.163269] (-) TimerEvent: {}
+[29.268156] (-) TimerEvent: {}
+[29.370567] (-) TimerEvent: {}
+[29.473108] (-) TimerEvent: {}
+[29.574340] (-) TimerEvent: {}
+[29.675229] (-) TimerEvent: {}
+[29.776824] (-) TimerEvent: {}
+[29.878156] (-) TimerEvent: {}
+[29.981101] (-) TimerEvent: {}
+[30.082136] (-) TimerEvent: {}
+[30.183765] (-) TimerEvent: {}
+[30.285331] (-) TimerEvent: {}
+[30.386544] (-) TimerEvent: {}
+[30.489240] (-) TimerEvent: {}
+[30.590476] (-) TimerEvent: {}
+[30.666360] (tm_imu) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable imu_subscriber\x1b[0m\n'}
+[30.690872] (-) TimerEvent: {}
+[30.792017] (-) TimerEvent: {}
+[30.893588] (-) TimerEvent: {}
+[30.997623] (-) TimerEvent: {}
+[31.100025] (-) TimerEvent: {}
+[31.201618] (-) TimerEvent: {}
+[31.302862] (-) TimerEvent: {}
+[31.404505] (-) TimerEvent: {}
+[31.506606] (-) TimerEvent: {}
+[31.608612] (-) TimerEvent: {}
+[31.710243] (-) TimerEvent: {}
+[31.817097] (-) TimerEvent: {}
+[31.848393] (tm_imu) StdoutLine: {'line': b'[100%] Built target imu_subscriber\n'}
+[31.917910] (-) TimerEvent: {}
+[31.926489] (tm_imu) CommandEnded: {'returncode': 0}
+[31.930818] (tm_imu) JobProgress: {'identifier': 'tm_imu', 'progress': 'install'}
+[31.993453] (tm_imu) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/build/tm_imu'], 'cwd': '/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/build/tm_imu', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_CA:en', 'USER': 'taylor', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/taylor', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.120.0', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2518', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2960', 'BUNDLED_DEBUGPY_PATH': '/home/taylor/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4015', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'taylor', 'JOURNAL_STREAM': '8:19987', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'taylor', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'WINDOWPATH': '2', 'PATH': '/home/taylor/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/taylor/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/taylor/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/jammyros:@/tmp/.ICE-unix/2925,unix/jammyros:/tmp/.ICE-unix/2925', 'INVOCATION_ID': 'e30c89042b6c479e812cdd4d3a02eec8', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/taylor/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-5bdf37d5936db98e.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/taylor/.config/Code/User/workspaceStorage/5dd0e2db34c618cfa9a448b4fb84dd83/ms-python.python/pythonrc.py', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-618fd34b2f.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/build/tm_imu', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[32.018309] (-) TimerEvent: {}
+[32.028262] (tm_imu) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[32.029960] (tm_imu) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/lib/tm_imu/transducer_m_imu\n'}
+[32.030576] (tm_imu) StdoutLine: {'line': b'-- Installing: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/lib/tm_imu/imu_subscriber\n'}
+[32.049372] (tm_imu) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/lib/tm_imu/imu_subscriber" to ""\n'}
+[32.055285] (tm_imu) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu//launch\n'}
+[32.056553] (tm_imu) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu//launch/imu.launch.py\n'}
+[32.057444] (tm_imu) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu//config\n'}
+[32.060608] (tm_imu) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu//config/params.yaml\n'}
+[32.065124] (tm_imu) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/ament_index/resource_index/package_run_dependencies/tm_imu\n'}
+[32.070377] (tm_imu) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/ament_index/resource_index/parent_prefix_path/tm_imu\n'}
+[32.072097] (tm_imu) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu/environment/ament_prefix_path.sh\n'}
+[32.072936] (tm_imu) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu/environment/ament_prefix_path.dsv\n'}
+[32.075062] (tm_imu) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu/environment/path.sh\n'}
+[32.076696] (tm_imu) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu/environment/path.dsv\n'}
+[32.080005] (tm_imu) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu/local_setup.bash\n'}
+[32.081284] (tm_imu) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu/local_setup.sh\n'}
+[32.083054] (tm_imu) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu/local_setup.zsh\n'}
+[32.083855] (tm_imu) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu/local_setup.dsv\n'}
+[32.084787] (tm_imu) StdoutLine: {'line': b'-- Installing: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu/package.dsv\n'}
+[32.085040] (tm_imu) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/ament_index/resource_index/packages/tm_imu\n'}
+[32.086327] (tm_imu) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu/cmake/tm_imuConfig.cmake\n'}
+[32.087297] (tm_imu) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu/cmake/tm_imuConfig-version.cmake\n'}
+[32.087609] (tm_imu) StdoutLine: {'line': b'-- Up-to-date: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu/package.xml\n'}
+[32.088137] (tm_imu) CommandEnded: {'returncode': 0}
+[32.119395] (-) TimerEvent: {}
+[32.188118] (tm_imu) JobEnded: {'identifier': 'tm_imu', 'rc': 0}
+[32.196203] (-) EventReactorShutdown: {}

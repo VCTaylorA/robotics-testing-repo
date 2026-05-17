@@ -1,0 +1,66 @@
+[0.041s] Invoking command in '/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/build/tm_imu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/src/transducer-imu -DCMAKE_INSTALL_PREFIX=/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu
+[0.539s] -- The C compiler identification is GNU 13.3.0
+[0.919s] -- The CXX compiler identification is GNU 13.3.0
+[1.030s] -- Detecting C compiler ABI info
+[1.445s] -- Detecting C compiler ABI info - done
+[1.475s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.484s] -- Detecting C compile features
+[1.487s] -- Detecting C compile features - done
+[1.521s] -- Detecting CXX compiler ABI info
+[1.875s] -- Detecting CXX compiler ABI info - done
+[1.897s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.898s] -- Detecting CXX compile features
+[1.899s] -- Detecting CXX compile features - done
+[1.923s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.338s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.716s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.873s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.928s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.994s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.088s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.415s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.426s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.657s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.714s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.761s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.001s] -- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)
+[4.065s] -- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[4.201s] -- Found tf2: 0.36.20 (/opt/ros/jazzy/share/tf2/cmake)
+[4.231s] -- Found tf2_ros: 0.36.20 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[4.832s] -- Configuring done (4.8s)
+[4.883s] -- Generating done (0.0s)
+[4.894s] -- Build files have been written to: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/build/tm_imu
+[4.908s] Invoked command in '/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/build/tm_imu' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/src/transducer-imu -DCMAKE_INSTALL_PREFIX=/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu
+[4.911s] Invoking command in '/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/build/tm_imu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/build/tm_imu -- -j12 -l12
+[5.030s] [ 33%] [32mBuilding CXX object CMakeFiles/transducer_m_imu.dir/src/tm_imu_node.cpp.o[0m
+[5.030s] [ 33%] [32mBuilding CXX object CMakeFiles/transducer_m_imu.dir/external/serialib/serialib.cpp.o[0m
+[5.031s] [ 50%] [32mBuilding CXX object CMakeFiles/transducer_m_imu.dir/external/EasyProfile/EasyProfile.cpp.o[0m
+[5.034s] [ 66%] [32mBuilding CXX object CMakeFiles/transducer_m_imu.dir/external/EasyProfile/EasyProtocol.cpp.o[0m
+[5.036s] [ 83%] [32mBuilding CXX object CMakeFiles/transducer_m_imu.dir/external/EasyProfile/EasyObjectDictionary.cpp.o[0m
+[16.175s] [100%] [32m[1mLinking CXX executable transducer_m_imu[0m
+[17.084s] [100%] Built target transducer_m_imu
+[17.107s] Invoked command in '/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/build/tm_imu' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/build/tm_imu -- -j12 -l12
+[17.122s] Invoking command in '/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/build/tm_imu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/build/tm_imu
+[17.145s] -- Install configuration: ""
+[17.146s] -- Installing: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/lib/tm_imu/transducer_m_imu
+[17.149s] -- Set non-toolchain portion of runtime path of "/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/lib/tm_imu/transducer_m_imu" to ""
+[17.150s] -- Installing: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu//launch
+[17.151s] -- Installing: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu//launch/imu.launch.py
+[17.152s] -- Installing: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu//config
+[17.153s] -- Installing: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu//config/params.yaml
+[17.154s] -- Installing: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/ament_index/resource_index/package_run_dependencies/tm_imu
+[17.154s] -- Installing: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/ament_index/resource_index/parent_prefix_path/tm_imu
+[17.154s] -- Installing: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu/environment/ament_prefix_path.sh
+[17.155s] -- Installing: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu/environment/ament_prefix_path.dsv
+[17.155s] -- Installing: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu/environment/path.sh
+[17.156s] -- Installing: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu/environment/path.dsv
+[17.156s] -- Installing: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu/local_setup.bash
+[17.156s] -- Installing: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu/local_setup.sh
+[17.156s] -- Installing: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu/local_setup.zsh
+[17.157s] -- Installing: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu/local_setup.dsv
+[17.157s] -- Installing: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu/package.dsv
+[17.157s] -- Installing: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/ament_index/resource_index/packages/tm_imu
+[17.157s] -- Installing: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu/cmake/tm_imuConfig.cmake
+[17.158s] -- Installing: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu/cmake/tm_imuConfig-version.cmake
+[17.158s] -- Installing: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu/package.xml
+[17.161s] Invoked command in '/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/build/tm_imu' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/build/tm_imu

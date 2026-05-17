@@ -1,0 +1,60 @@
+[0.052s] Invoking command in '/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/build/tm_imu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/build/tm_imu -- -j12 -l12
+[0.315s] [ 75%] Built target transducer_m_imu
+[0.381s] [ 87%] [32mBuilding CXX object CMakeFiles/imu_subscriber.dir/src/imu_subscriber.cpp.o[0m
+[9.734s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[9.735s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[9.736s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[9.736s]                  from [01m[K/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/src/transducer-imu/src/imu_subscriber.cpp:1[m[K:
+[9.737s] [01m[K/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/src/transducer-imu/src/imu_subscriber.cpp:[m[K In member function ‘[01m[Kvoid ImuSubscriber::[01;32m[Kcallback[m[K(sensor_msgs::msg::MagneticField_<std::allocator<void> >::SharedPtr)[m[K’:
+[9.737s] [01m[K/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/src/transducer-imu/src/imu_subscriber.cpp:32:57:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[9.737s]    32 |                         RCLCPP_INFO(this->get_logger(), [01;35m[K"↑ N "[m[K, yaw);
+[9.738s]       |                                                         [01;35m[K^~~~~~[m[K
+[9.738s] [01m[K/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/src/transducer-imu/src/imu_subscriber.cpp:34:57:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[9.738s]    34 |                         RCLCPP_INFO(this->get_logger(), [01;35m[K"↗ NE"[m[K, yaw);
+[9.739s]       |                                                         [01;35m[K^~~~~~[m[K
+[9.739s] [01m[K/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/src/transducer-imu/src/imu_subscriber.cpp:36:57:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[9.740s]    36 |                         RCLCPP_INFO(this->get_logger(), [01;35m[K"→ E "[m[K, yaw);
+[9.740s]       |                                                         [01;35m[K^~~~~~[m[K
+[9.740s] [01m[K/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/src/transducer-imu/src/imu_subscriber.cpp:38:65:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[9.741s]    38 |                                 RCLCPP_INFO(this->get_logger(), [01;35m[K"↘ SE"[m[K, yaw);
+[9.741s]       |                                                                 [01;35m[K^~~~~~[m[K
+[9.741s] [01m[K/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/src/transducer-imu/src/imu_subscriber.cpp:40:65:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[9.741s]    40 |                                 RCLCPP_INFO(this->get_logger(), [01;35m[K"↓ S "[m[K, yaw);
+[9.741s]       |                                                                 [01;35m[K^~~~~~[m[K
+[9.742s] [01m[K/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/src/transducer-imu/src/imu_subscriber.cpp:42:65:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[9.742s]    42 |                                 RCLCPP_INFO(this->get_logger(), [01;35m[K"↙ SW"[m[K, yaw);
+[9.742s]       |                                                                 [01;35m[K^~~~~~[m[K
+[9.742s] [01m[K/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/src/transducer-imu/src/imu_subscriber.cpp:44:65:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[9.742s]    44 |                                 RCLCPP_INFO(this->get_logger(), [01;35m[K"← W "[m[K, yaw);
+[9.743s]       |                                                                 [01;35m[K^~~~~~[m[K
+[9.743s] [01m[K/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/src/transducer-imu/src/imu_subscriber.cpp:46:65:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[9.743s]    46 |                                 RCLCPP_INFO(this->get_logger(), [01;35m[K"↖ NW"[m[K, yaw);
+[9.743s]       |                                                                 [01;35m[K^~~~~~[m[K
+[30.662s] [100%] [32m[1mLinking CXX executable imu_subscriber[0m
+[31.844s] [100%] Built target imu_subscriber
+[31.924s] Invoked command in '/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/build/tm_imu' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/build/tm_imu -- -j12 -l12
+[31.990s] Invoking command in '/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/build/tm_imu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/build/tm_imu
+[32.025s] -- Install configuration: ""
+[32.025s] -- Up-to-date: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/lib/tm_imu/transducer_m_imu
+[32.026s] -- Installing: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/lib/tm_imu/imu_subscriber
+[32.048s] -- Set non-toolchain portion of runtime path of "/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/lib/tm_imu/imu_subscriber" to ""
+[32.051s] -- Up-to-date: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu//launch
+[32.052s] -- Up-to-date: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu//launch/imu.launch.py
+[32.055s] -- Up-to-date: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu//config
+[32.059s] -- Up-to-date: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu//config/params.yaml
+[32.065s] -- Up-to-date: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/ament_index/resource_index/package_run_dependencies/tm_imu
+[32.067s] -- Up-to-date: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/ament_index/resource_index/parent_prefix_path/tm_imu
+[32.067s] -- Up-to-date: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu/environment/ament_prefix_path.sh
+[32.069s] -- Up-to-date: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu/environment/ament_prefix_path.dsv
+[32.070s] -- Up-to-date: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu/environment/path.sh
+[32.074s] -- Up-to-date: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu/environment/path.dsv
+[32.076s] -- Up-to-date: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu/local_setup.bash
+[32.077s] -- Up-to-date: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu/local_setup.sh
+[32.078s] -- Up-to-date: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu/local_setup.zsh
+[32.079s] -- Up-to-date: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu/local_setup.dsv
+[32.080s] -- Installing: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu/package.dsv
+[32.080s] -- Up-to-date: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/ament_index/resource_index/packages/tm_imu
+[32.082s] -- Up-to-date: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu/cmake/tm_imuConfig.cmake
+[32.082s] -- Up-to-date: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu/cmake/tm_imuConfig-version.cmake
+[32.083s] -- Up-to-date: /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/install/tm_imu/share/tm_imu/package.xml
+[32.083s] Invoked command in '/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/build/tm_imu' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/taylor/Documents/robotics-testing-repo/imu_compass_ws/build/tm_imu

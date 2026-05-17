@@ -1,0 +1,16 @@
+tm_imu:
+  ros__parameters:
+    imu_baudrate : 115200
+    
+    #this is for showing the whole path
+    #imu_port: "/dev/serial/by-id/usb-STMicroelectronics_STM32_Virtual_ComPort_327B33613235-if00"    
+    
+    #this was the default
+    imu_port : "/dev/serial/by-id/usb-STMicroelectronics_STM32_Virtual_ComPort_327B33613235-if00"
+    
+    
+    
+    imu_frame_id : 'imu'
+    parent_frame_id : 'base_link'
+    timer_period : 5
+    transform : [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]

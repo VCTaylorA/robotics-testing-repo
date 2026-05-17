@@ -1,0 +1,11 @@
+/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/build/tm_imu/CMakeFiles/uninstall.dir
+/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/build/tm_imu/CMakeFiles/tm_imu_uninstall.dir
+/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/build/tm_imu/CMakeFiles/transducer_m_imu.dir
+/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/build/tm_imu/CMakeFiles/imu_subscriber.dir
+/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/build/tm_imu/CMakeFiles/test.dir
+/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/build/tm_imu/CMakeFiles/edit_cache.dir
+/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/build/tm_imu/CMakeFiles/rebuild_cache.dir
+/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/build/tm_imu/CMakeFiles/list_install_components.dir
+/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/build/tm_imu/CMakeFiles/install.dir
+/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/build/tm_imu/CMakeFiles/install/local.dir
+/home/taylor/Documents/robotics-testing-repo/imu_compass_ws/build/tm_imu/CMakeFiles/install/strip.dir

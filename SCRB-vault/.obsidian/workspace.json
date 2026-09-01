@@ -1,0 +1,232 @@
+{
+  "main": {
+    "id": "3eaf58cec460e2bb",
+    "type": "split",
+    "children": [
+      {
+        "id": "cffdf21bb255de43",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "86b7006f98e7bf5b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CIRC-XLR/HEIST MISSION.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "HEIST MISSION"
+            }
+          },
+          {
+            "id": "10b4e5a6c9ab3d76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ros Notes/Basic ros commands.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Basic ros commands"
+            }
+          },
+          {
+            "id": "1abc7da8b4840b67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "luxonis oakd.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "luxonis oakd"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "97655a2be78daebe",
+    "type": "split",
+    "children": [
+      {
+        "id": "15c5228c662390f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ec4630687d53669",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "531585beb3d53330",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "e9e01b224413e28a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "right": {
+    "id": "fa2b5dfde0e026b7",
+    "type": "split",
+    "children": [
+      {
+        "id": "9144ed4cd42fb345",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c11483e5ea0477bb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CIRC-XLR/HEIST MISSION.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for HEIST MISSION"
+            }
+          },
+          {
+            "id": "984a4c2844e4ea33",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CIRC-XLR/HEIST MISSION.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from HEIST MISSION"
+            }
+          },
+          {
+            "id": "ed76559ea71babde",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "a75a001609105aa5",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "261932163a3a6e8c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CIRC-XLR/HEIST MISSION.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of HEIST MISSION"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "1abc7da8b4840b67",
+  "lastOpenFiles": [
+    "luxonis oakd.md",
+    "Ros Notes/Basic ros commands.md",
+    "Ros Notes/Untitled",
+    "Ros Notes",
+    "CIRC-XLR/HEIST MISSION.md",
+    "CIRC-XLR/Orange-pi-3-lts-interface-details-img2.png",
+    "CIRC-XLR/Orange_pi_3_LTS_Schematics_v1.4.pdf",
+    "CIRC_XLR/Untitled/Untitled.md",
+    "CIRC_XLR/Untitled",
+    "CIRC-XLR",
+    "Welcome.md"
+  ]
+}
